@@ -5,3 +5,16 @@ Monday 08/06/2018
 2. Downloaded and installed Jabref 
    Created bibtex file to test the software
    
+Tuesay 08/07/2018
+1. Cloned Jabref repository to local repository 
+2. Created my own branch of Jabref 
+3. Learn git commands 
+4. Understood the layout of change log like commit number, bug number and description, author, ... 
+
+Wednesday 08/08/2018 
+1. Searched through change log and filter using "git log" commands. 
+2. Selected a bug number and description on github issuses, then search for that bug number in git log using "grep" and the bug number. 
+   Be able to match a bug number and description with the commit using commit number. 
+   Some commit fixed many bugs at the same time.
+   Exported the change log data to a file. 
+   
