@@ -18,3 +18,9 @@ Wednesday 08/08/2018
    Some commit fixed many bugs at the same time.
    Exported the change log data to a file. 
    
+Sunday 08/12/2018
+1. Understanding the code for extracting the pull requests and github3 API 
+2. Extracted 745 issues that are closed and labeled as "bug" from jabref repository 
+   Listed the issue's id and title
+   Extracted pull request number that is associated with the issue.
+3. Extracted closed pull-requests's title and number 
