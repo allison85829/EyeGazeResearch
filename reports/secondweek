@@ -1,0 +1,19 @@
+Tuesday 08/14/2018
+  Extracted the title of issues and pull request that was closed with different labels.
+  These labeled issues focus on different aspect of the project.
+  Labels: bug, ui, maintalbe, feature, code-quality, search
+  
+Wednesday 08/15/2018
+  Read JabRef wiki page on Github
+  Understand the general layout and logic of the project
+  
+Thursday 08/16/2018 
+  Extracted closed pull request review comments and comments 
+  Extracted file information of pull request like the number of modified files, the file name, and the number of changes in each file.
+  Finding the comments and review based on the pull request number obtained earlier. 
+  Read the body, the comments and the review comments of a few pull requests.
+  Filtered pull request that have small number of changed files. 
+  
+Sunday 08/19/2018
+  Reading the obtained data set to select tasks for the experiment.
+  Looked into issues with different labels and aspect of the project.
