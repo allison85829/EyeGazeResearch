@@ -40,7 +40,7 @@ for pull in pulls:
         file_name = str(file.filename)
         changes_count = str(file.changes_count)
         if first_pull:
-            with open(filename_path_prefix + "FileInfo" + ".txt", "w") as file:
+            with open(filename_path_prefix + "PRFileInfo" + ".txt", "w") as file:
                 try:
                     file.write("#" + str(pull_number) + "\nFile name: " + file_name + "\nChanges: "
                         + changes_count + "\n")
@@ -50,7 +50,7 @@ for pull in pulls:
 
             first_pull = False
         else:
-            with open(filename_path_prefix + "FileInfo" + ".txt", "a") as file:
+            with open(filename_path_prefix + "PRFileInfo" + ".txt", "a") as file:
                 try:
                     file.write("#" + str(pull_number) + "\nFile name: " + file_name + "\nChanges: "
                         + changes_count + "\n")
@@ -59,5 +59,5 @@ for pull in pulls:
                         + "--UnicodeEncodeError--" + "\n")
         file_count += 1
 
-    with open(filename_path_prefix + "FileInfo" + ".txt", "a") as file:
+    with open(filename_path_prefix + "PRFileInfo" + ".txt", "a") as file:
         file.write("Number of files: " + str(file_count) + "\n\n")

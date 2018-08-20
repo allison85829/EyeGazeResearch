@@ -1,0 +1,226 @@
+Issues Labeled "bug"
+#3762: Meaningful button review field migration
+    Pull Request #3762: Meaningful button review field migration
+
+#3761: Don't trim when migrating review field
+    Pull Request #3761: Don't trim when migrating review field
+
+#3638: Quickfix to get build running on all platforms
+    Pull Request #3638: Quickfix to get build running on all platforms
+
+#3011: When browsing through the MainTable remember which EntryEditor tab was open
+    Pull Request #3011: When browsing through the MainTable remember which EntryEditor tab was open
+
+#2895: Update Localization of Greek Translations
+    Pull Request #2895: Update Localization of Greek Translations
+
+#2732: Fix 2701 too may files found
+    Pull Request #2732: Fix 2701 too may files found
+
+#2122: Implement Datepicker "none"-button
+    Pull Request #2122: Implement Datepicker "none"-button
+
+#2102: Store LaTeX-free fields in BibEntry
+    Pull Request #2102: Store LaTeX-free fields in BibEntry
+
+#2069: Fix changing the font size not working when importing preferences
+    Pull Request #2069: Fix changing the font size not working when importing preferences
+
+#1905: Fixed problem where closing brackets could not be used as texts in la…
+    Pull Request #1905: Fixed problem where closing brackets could not be used as texts in la…
+
+#1888: Do not mark a new database as changed
+    Pull Request #1888: Do not mark a new database as changed
+
+#1863: Error setting field freeze
+    Pull Request #1863: Error setting field freeze
+
+#1857: Fixed NPE when loading a style file that has no default style
+    Pull Request #1857: Fixed NPE when loading a style file that has no default style
+
+#1848: Allow setting the etal-string empty. Implements #1841
+    Pull Request #1848: Allow setting the etal-string empty. Implements #1841
+
+#1842: Some more Optional
+    Pull Request #1842: Some more Optional
+
+#1830: Made BibDatabaseContext.getDatabaseFile() return Optional
+    Pull Request #1830: Made BibDatabaseContext.getDatabaseFile() return Optional
+
+#1823: Fixed #1804: URL field is not removed by integrity check
+    Pull Request #1823: Fixed #1804: URL field is not removed by integrity check
+
+#1816: When inserting a duplicate the right entry will be selected
+    Pull Request #1816: When inserting a duplicate the right entry will be selected
+
+#1815: Fix delete entry keybindings bug
+    Pull Request #1815: Fix delete entry keybindings bug
+
+#1811: Preview panel height is now saved immediately
+    Pull Request #1811: Preview panel height is now saved immediately
+
+#1809: Fix preview update when selecting single entry after selecting multiple entries
+    Pull Request #1809: Fix preview update when selecting single entry after selecting multiple entries
+
+#1783: Fix NPE when closing the last tab
+    Pull Request #1783: Fix NPE when closing the last tab
+
+#1769: Fixed BibTeXMLImporter
+    Pull Request #1769: Fixed BibTeXMLImporter
+
+#1755: Fixed name column rendering #1499 and #1531
+    Pull Request #1755: Fixed name column rendering #1499 and #1531
+
+#1734: Removed Seiten from pagetotal and fixed a totally unrelated NPE
+    Pull Request #1734: Removed Seiten from pagetotal and fixed a totally unrelated NPE
+
+#1733: Fixed ConcurrentModificationException when removing a field in the so…
+    Pull Request #1733: Fixed ConcurrentModificationException when removing a field in the so…
+
+#1725: Fixed some EDT issues
+    Pull Request #1725: Fixed some EDT issues
+
+#1714: Fixed some issues in Manage content selector dialog
+    Pull Request #1714: Fixed some issues in Manage content selector dialog
+
+#1710: Somefixes
+    Pull Request #1710: Somefixes
+
+#1678: Fixed OO/LO manual connection dialog on Linux
+    Pull Request #1678: Fixed OO/LO manual connection dialog on Linux
+
+#1649: Fixed one more NPE which should have been fixed in #1631
+    Pull Request #1649: Fixed one more NPE which should have been fixed in #1631
+
+#1641: Fixed #1639
+    Pull Request #1641: Fixed #1639
+
+#1638: Keep @Comment text in a bib file
+    Pull Request #1638: Keep @Comment text in a bib file
+
+#1634: Fixed a minor issue and refactored MergeEntries
+    Pull Request #1634: Fixed a minor issue and refactored MergeEntries
+
+#1631: Replaced some getField and fixed some bugs
+    Pull Request #1631: Replaced some getField and fixed some bugs
+
+#1622: Improved LaTeX to Unicode/HTML formatters to output more sensible val…
+    Pull Request #1622: Improved LaTeX to Unicode/HTML formatters to output more sensible val…
+
+#1619: Added DateFormatter to LayoutEntry so that it actually works...
+    Pull Request #1619: Added DateFormatter to LayoutEntry so that it actually works...
+
+#1599: Fixed #1592
+    Pull Request #1599: Fixed #1592
+
+#1583: Fixed #1527 and some refactoring/cleanups
+    Pull Request #1583: Fixed #1527 and some refactoring/cleanups
+
+#1581: Fixed #1264
+    Pull Request #1581: Fixed #1264
+
+#1576: Fixed undo when update time stamp on edit is enabled
+    Pull Request #1576: Fixed undo when update time stamp on edit is enabled
+
+#1564: Corrected month value when using drop-down in entry editor
+    Pull Request #1564: Corrected month value when using drop-down in entry editor
+
+#1562: Fixed number of entries fetched from Springer
+    Pull Request #1562: Fixed number of entries fetched from Springer
+
+#1559: Fixed #1534
+    Pull Request #1559: Fixed #1534
+
+#1464: LateXToUnicode Formatter does not handle commands correctly
+    Pull Request #1464: LateXToUnicode Formatter does not handle commands correctly
+
+#1269: Create tests to fix #473
+    Pull Request #1269: Create tests to fix #473
+
+#1246: Fixed #1245
+    Pull Request #1246: Fixed #1245
+
+#1244: Fixed so the resulting type does not become Misc when merging two ent…
+    Pull Request #1244: Fixed so the resulting type does not become Misc when merging two ent…
+
+#1208: Fix that FieldFormatters run although they are disabled
+    Pull Request #1208: Fix that FieldFormatters run although they are disabled
+
+#1114: Added FormatChars LayoutFormatter back again (to be merged before 3.3 unless someone else solves it in a proper way)
+    Pull Request #1114: Added FormatChars LayoutFormatter back again (to be merged before 3.3 unless someone else solves it in a proper way)
+
+#1102: Fixed freezing when canceling Find unlinked files (for PDFs)
+    Pull Request #1102: Fixed freezing when canceling Find unlinked files (for PDFs)
+
+#1066: Changed preview font from Arial to Sans-Serif family
+    Pull Request #1066: Changed preview font from Arial to Sans-Serif family
+
+#1048: Fix NPE on database load in SpecialFieldSync
+    Pull Request #1048: Fix NPE on database load in SpecialFieldSync
+
+#1035: Tests of BibEntry and BibDatabase
+    Pull Request #1035: Tests of BibEntry and BibDatabase
+
+#930: Fix 845
+    Pull Request #930: Fix 845
+
+#903: Fixed #890
+    Pull Request #903: Fixed #890
+
+#884: Fixed #883
+    Pull Request #884: Fixed #883
+
+#875: Fix bug in parsing custom entry types
+    Pull Request #875: Fix bug in parsing custom entry types
+
+#874: Fixing OpenOffice Citation with curly braces and manual connection browsing
+    Pull Request #874: Fixing OpenOffice Citation with curly braces and manual connection browsing
+
+#832: Warning removals and fixed an issue with pushing citations to OpenOffice
+    Pull Request #832: Warning removals and fixed an issue with pushing citations to OpenOffice
+
+#807: Fixes MySQL export for more than one entry 
+    Pull Request #807: Fixes MySQL export for more than one entry 
+
+#795: More List<BibEntry> instead of BibEntry[]
+    Pull Request #795: More List<BibEntry> instead of BibEntry[]
+
+#787: Fixed some warnings
+    Pull Request #787: Fixed some warnings
+
+#782: Fix a small bug in citekey generator
+    Pull Request #782: Fix a small bug in citekey generator
+
+#778: NPE when exporting the database to an .sql file
+    Pull Request #778: NPE when exporting the database to an .sql file
+
+#760: Code improvements
+    Pull Request #760: Code improvements
+
+#726: Merge from DOI now honors removed fields
+    Pull Request #726: Merge from DOI now honors removed fields
+
+#718: Improve database writer
+    Pull Request #718: Improve database writer
+
+#690: Simplify matching complexity of unlinked file finder
+    Pull Request #690: Simplify matching complexity of unlinked file finder
+
+#663: Fixed some issues in exporter
+    Pull Request #663: Fixed some issues in exporter
+
+#626: Fixed #608
+    Pull Request #626: Fixed #608
+
+#595: Fixed #545 - ACM fetcher works again
+    Pull Request #595: Fixed #545 - ACM fetcher works again
+
+#594: Solved #593 and cleaned up the OO-code a bit
+    Pull Request #594: Solved #593 and cleaned up the OO-code a bit
+
+#531: Import Format Reader Fix
+    Pull Request #531: Import Format Reader Fix
+
+#361: Fix bug: encoding was not read from comment
+    Pull Request #361: Fix bug: encoding was not read from comment
+

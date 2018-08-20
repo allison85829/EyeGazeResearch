@@ -1,0 +1,202 @@
+Issues Labeled "ui"
+#3977: Add Generate BibTeX Key to Toolbar
+    Pull Request #3977: Add Generate BibTeX Key to Toolbar
+
+#3976: Add GenerateKey Button to Entry Editor Toolbar
+    Pull Request #3976: Add GenerateKey Button to Entry Editor Toolbar
+
+#3762: Meaningful button review field migration
+    Pull Request #3762: Meaningful button review field migration
+
+#3684: Make JavaFX a first-class citizen
+    Pull Request #3684: Make JavaFX a first-class citizen
+
+#3082: JavaFX FileAnnotationTab
+    Pull Request #3082: JavaFX FileAnnotationTab
+
+#3011: When browsing through the MainTable remember which EntryEditor tab was open
+    Pull Request #3011: When browsing through the MainTable remember which EntryEditor tab was open
+
+#3008: Don't enforce default Windows font
+    Pull Request #3008: Don't enforce default Windows font
+
+#3005: javafx replacement for file dialog
+    Pull Request #3005: javafx replacement for file dialog
+
+#2873: Fix Divide by zero exception if rows is zero in Entry Editor Tab
+    Pull Request #2873: Fix Divide by zero exception if rows is zero in Entry Editor Tab
+
+#2684: FileAnnotationTab now only shows the FileName, not the full path.
+    Pull Request #2684: FileAnnotationTab now only shows the FileName, not the full path.
+
+#2530: Make DOIFetcher the default fetcher in new entry dialog
+    Pull Request #2530: Make DOIFetcher the default fetcher in new entry dialog
+
+#2416: Fix "collapse sub tree" functionality for groups tree
+    Pull Request #2416: Fix "collapse sub tree" functionality for groups tree
+
+#2402: Warn more explicitly about multi fetches
+    Pull Request #2402: Warn more explicitly about multi fetches
+
+#2266: When an ISBN is not available on ebook.de, the error message is more clear.
+    Pull Request #2266: When an ISBN is not available on ebook.de, the error message is more clear.
+
+#2122: Implement Datepicker "none"-button
+    Pull Request #2122: Implement Datepicker "none"-button
+
+#2120: Change title/tooltip of source panel in biblatex mode
+    Pull Request #2120: Change title/tooltip of source panel in biblatex mode
+
+#1945: Add filteringCharset = 'UTF-8' to gradle
+    Pull Request #1945: Add filteringCharset = 'UTF-8' to gradle
+
+#1821: Added links to internet resources
+    Pull Request #1821: Added links to internet resources
+
+#1764: Set single File extensions filter preselected
+    Pull Request #1764: Set single File extensions filter preselected
+
+#1755: Fixed name column rendering #1499 and #1531
+    Pull Request #1755: Fixed name column rendering #1499 and #1531
+
+#1754: Added tooltip text to web search button
+    Pull Request #1754: Added tooltip text to web search button
+
+#1743: Disable some actions while no database is open
+    Pull Request #1743: Disable some actions while no database is open
+
+#1722: Better layout of general preferences tab
+    Pull Request #1722: Better layout of general preferences tab
+
+#1700: Some GUI tests
+    Pull Request #1700: Some GUI tests
+
+#1684: Group names can now be rendered using LaTeXs commands
+    Pull Request #1684: Group names can now be rendered using LaTeXs commands
+
+#1652: Made possible to make the OO/LO panel a bit more narrow
+    Pull Request #1652: Made possible to make the OO/LO panel a bit more narrow
+
+#1637: Special field editor for fields with entry keys
+    Pull Request #1637: Special field editor for fields with entry keys
+
+#1634: Fixed a minor issue and refactored MergeEntries
+    Pull Request #1634: Fixed a minor issue and refactored MergeEntries
+
+#1623: Table row height adjusts on Windows as the font scales with the menu
+    Pull Request #1623: Table row height adjusts on Windows as the font scales with the menu
+
+#1605: Enhance side pane toggle
+    Pull Request #1605: Enhance side pane toggle
+
+#1588: Added filter to not show selected integrity checks
+    Pull Request #1588: Added filter to not show selected integrity checks
+
+#1565: Added information in the tool tip for undo and redo and disabled when…
+    Pull Request #1565: Added information in the tool tip for undo and redo and disabled when…
+
+#1541: The customize entry dialogs field list gets the focus as soon as it is focused
+    Pull Request #1541: The customize entry dialogs field list gets the focus as soon as it is focused
+
+#1390: Ported the KeyBindings dialog to JavaFX
+    Pull Request #1390: Ported the KeyBindings dialog to JavaFX
+
+#1383: Implemented error console in JavaFX
+    Pull Request #1383: Implemented error console in JavaFX
+
+#1361: Scrollingthroughentrylisttest
+    Pull Request #1361: Scrollingthroughentrylisttest
+
+#1298: Added option to copy version information in the about dialog
+    Pull Request #1298: Added option to copy version information in the about dialog
+
+#1273: Improved integrity check dialog
+    Pull Request #1273: Improved integrity check dialog
+
+#1119: Fix #1115 Wrong warning message when importing duplicate entries
+    Pull Request #1119: Fix #1115 Wrong warning message when importing duplicate entries
+
+#1116: Open Jdk problems with Look and Feels
+    Pull Request #1116: Open Jdk problems with Look and Feels
+
+#1113: Move PDF file directory configuration from external tab to file tab in preferences
+    Pull Request #1113: Move PDF file directory configuration from external tab to file tab in preferences
+
+#1112: Move L&F configuration from advanced to appearance tab in preferences
+    Pull Request #1112: Move L&F configuration from advanced to appearance tab in preferences
+
+#1095: Plain text input refactoring
+    Pull Request #1095: Plain text input refactoring
+
+#1077: [WIP] Refactor auto completion
+    Pull Request #1077: [WIP] Refactor auto completion
+
+#1072: DOI field improvements
+    Pull Request #1072: DOI field improvements
+
+#1066: Changed preview font from Arial to Sans-Serif family
+    Pull Request #1066: Changed preview font from Arial to Sans-Serif family
+
+#1037: Implemented #1034
+    Pull Request #1037: Implemented #1034
+
+#1029: Better main table rendering
+    Pull Request #1029: Better main table rendering
+
+#1016: Added info about current font size when changing it using key bindings
+    Pull Request #1016: Added info about current font size when changing it using key bindings
+
+#1008: Used PositionWindow for PreambleEditor dialog size
+    Pull Request #1008: Used PositionWindow for PreambleEditor dialog size
+
+#1002: Increase default window size to show complete toolbar
+    Pull Request #1002: Increase default window size to show complete toolbar
+
+#999: DB properties layout and save order config changed
+    Pull Request #999: DB properties layout and save order config changed
+
+#992: Better layout of DatabasePropertiesDialog
+    Pull Request #992: Better layout of DatabasePropertiesDialog
+
+#988: When clicking on a tab, the first field now has the focus
+    Pull Request #988: When clicking on a tab, the first field now has the focus
+
+#864: Add dialog to show all preferences in their raw form plus some filtering
+    Pull Request #864: Add dialog to show all preferences in their raw form plus some filtering
+
+#799: Better preference for default file-based mode
+    Pull Request #799: Better preference for default file-based mode
+
+#744: Move edit custom entry types to bibtex menu as it is directly bibtex-related
+    Pull Request #744: Move edit custom entry types to bibtex menu as it is directly bibtex-related
+
+#733: Improved menu structure
+    Pull Request #733: Improved menu structure
+
+#583: Changes in customized entry types are now directly reflected
+    Pull Request #583: Changes in customized entry types are now directly reflected
+
+#580: Used a scrollable text area for parser warnings
+    Pull Request #580: Used a scrollable text area for parser warnings
+
+#546: [WIP] First attempt at using TextAnalyzer
+    Pull Request #546: [WIP] First attempt at using TextAnalyzer
+
+#507: Gui testing
+    Pull Request #507: Gui testing
+
+#355: Add purple background in Windows 8.1+ start menu
+    Pull Request #355: Add purple background in Windows 8.1+ start menu
+
+#334: Add "open folder" icon
+    Pull Request #334: Add "open folder" icon
+
+#332: Better search
+    Pull Request #332: Better search
+
+#274: Save size of MergeEntryDialog and MergeEntryDOIDialog
+    Pull Request #274: Save size of MergeEntryDialog and MergeEntryDOIDialog
+
+#230: New Iconset
+    Pull Request #230: New Iconset
+

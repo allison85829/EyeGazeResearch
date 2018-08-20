@@ -1,0 +1,43 @@
+Issues Labeled "fetcher"
+#4016: Do not trim or remove whitespace from the title based id fetcher
+    Pull Request #4016: Do not trim or remove whitespace from the title based id fetcher
+
+#3668: Fix medline and convert some fetchers to junit5 where possible
+    Pull Request #3668: Fix medline and convert some fetchers to junit5 where possible
+
+#3445: Declare FreeCiteImportestTest as Fetcher Test
+    Pull Request #3445: Declare FreeCiteImportestTest as Fetcher Test
+
+#2709: EntryTypeDialog Fetching Autogenerates BibTeX Key
+    Pull Request #2709: EntryTypeDialog Fetching Autogenerates BibTeX Key
+
+#2568: Fix medline fetcher test
+    Pull Request #2568: Fix medline fetcher test
+
+#2473: Remove html code from ACM fetcher
+    Pull Request #2473: Remove html code from ACM fetcher
+
+#2402: Warn more explicitly about multi fetches
+    Pull Request #2402: Warn more explicitly about multi fetches
+
+#2266: When an ISBN is not available on ebook.de, the error message is more clear.
+    Pull Request #2266: When an ISBN is not available on ebook.de, the error message is more clear.
+
+#2193: Google Scholar: Add better error message for reached traffic limit
+    Pull Request #2193: Google Scholar: Add better error message for reached traffic limit
+
+#2101: Rewrite google scholar fetcher to new infrastructure
+    Pull Request #2101: Rewrite google scholar fetcher to new infrastructure
+
+#2066: Medline Fetcher using new infrastructure
+    Pull Request #2066: Medline Fetcher using new infrastructure
+
+#1998: Introduce convienent interface for ID-based fetcher
+    Pull Request #1998: Introduce convienent interface for ID-based fetcher
+
+#1929: New fetcher
+    Pull Request #1929: New fetcher
+
+#1780: Fix arxiv fetcher not working correctly
+    Pull Request #1780: Fix arxiv fetcher not working correctly
+

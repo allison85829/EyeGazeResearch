@@ -1,0 +1,16 @@
+Issues Labeled "maintable"
+#3767: Extend toolbar with more icons and add tool tips
+    Pull Request #3767: Extend toolbar with more icons and add tool tips
+
+#3666: Bring back the context menu
+    Pull Request #3666: Bring back the context menu
+
+#3621: [WIP] Main table JavaFX migration
+    Pull Request #3621: [WIP] Main table JavaFX migration
+
+#3591: Maintable leaves the Swing year and comes back in a new JavaFX dress
+    Pull Request #3591: Maintable leaves the Swing year and comes back in a new JavaFX dress
+
+#3011: When browsing through the MainTable remember which EntryEditor tab was open
+    Pull Request #3011: When browsing through the MainTable remember which EntryEditor tab was open
+
