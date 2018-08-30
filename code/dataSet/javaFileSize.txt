@@ -1,0 +1,3326 @@
+CatchExceptionsFromThread.java
+    Lines: 22
+JabRefPreferencesTest.java
+    Lines: 30
+TestIconsProperties.java
+    Lines: 56
+Folder: ./src/test/java/org/jabref
+--------------------------------------------------------
+MergeReviewIntoCommentActionMigrationTest.java
+    Lines: 99
+PreferencesMigrationsTest.java
+    Lines: 123
+ConvertLegacyExplicitGroupsTest.java
+    Lines: 69
+ConvertMarkingToGroupsTest.java
+    Lines: 34
+Folder: ./src/test/java/org/jabref/migrations
+--------------------------------------------------------
+TypedBibEntryTest.java
+    Lines: 61
+Folder: ./src/test/java/org/jabref/logic
+--------------------------------------------------------
+BibtexKeyGeneratorTest.java
+    Lines: 1010
+MakeLabelWithoutDatabaseTest.java
+    Lines: 40
+MakeLabelWithDatabaseTest.java
+    Lines: 445
+Folder: ./src/test/java/org/jabref/logic/bibtexkeypattern
+--------------------------------------------------------
+LocalizationTest.java
+    Lines: 76
+LocalizationParserTest.java
+    Lines: 54
+LocalizationParser.java
+    Lines: 322
+LocalizationConsistencyTest.java
+    Lines: 160
+LanguagesTest.java
+    Lines: 55
+LocalizationKeyTest.java
+    Lines: 23
+EncodingsTest.java
+    Lines: 28
+PropertiesLocaleCompletenessTest.java
+    Lines: 67
+LocalizationEntry.java
+    Lines: 66
+LocalizationBundleForTest.java
+    Lines: 5
+LocalizationKeyParamsTest.java
+    Lines: 24
+Folder: ./src/test/java/org/jabref/logic/l10n
+--------------------------------------------------------
+MimeTypeDetectorTest.java
+    Lines: 110
+URLDownloadTest.java
+    Lines: 95
+URLUtilTest.java
+    Lines: 103
+Folder: ./src/test/java/org/jabref/logic/net
+--------------------------------------------------------
+ImportFormatReaderIntegrationTest.java
+    Lines: 71
+WebFetchersTest.java
+    Lines: 81
+BibDatabaseTestsWithFiles.java
+    Lines: 45
+ImportDataTest.java
+    Lines: 49
+DatabaseFileLookupTest.java
+    Lines: 54
+OpenDatabaseTest.java
+    Lines: 125
+ImportFormatReaderTestParameterless.java
+    Lines: 55
+ImporterTest.java
+    Lines: 135
+FulltextFetchersTest.java
+    Lines: 76
+Folder: ./src/test/java/org/jabref/logic/importer
+--------------------------------------------------------
+GroupsParserTest.java
+    Lines: 130
+Folder: ./src/test/java/org/jabref/logic/importer/util
+--------------------------------------------------------
+InspecImporterTest.java
+    Lines: 130
+ModsImporterTestFiles.java
+    Lines: 44
+BibTeXMLImporterTestFiles.java
+    Lines: 45
+RISImporterTest.java
+    Lines: 52
+SilverPlatterImporterTest.java
+    Lines: 67
+MedlineImporterTestFiles.java
+    Lines: 58
+BiblioscapeImporterTestFiles.java
+    Lines: 31
+MedlinePlainImporterTest.java
+    Lines: 250
+MrDLibImporterTest.java
+    Lines: 90
+CopacImporterTest.java
+    Lines: 44
+EndnoteXmlImporterTestFiles.java
+    Lines: 54
+EndnoteImporterTest.java
+    Lines: 160
+PdfContentImporterTestFiles.java
+    Lines: 36
+CustomImporterTest.java
+    Lines: 100
+PdfXmpImporterTest.java
+    Lines: 93
+FreeCiteImporterTest.java
+    Lines: 57
+RepecNepImporterTest.java
+    Lines: 81
+BibtexImporterTest.java
+    Lines: 134
+MsBibImporterTestFiles.java
+    Lines: 43
+MedlineImporterTest.java
+    Lines: 48
+IsiImporterTest.java
+    Lines: 350
+CopacImporterTestFiles.java
+    Lines: 43
+BiblioscapeImporterTestTypes.java
+    Lines: 50
+MsBibImporterTest.java
+    Lines: 73
+ImporterTestEngine.java
+    Lines: 75
+BibTeXMLImporterTestTypes.java
+    Lines: 63
+OvidImporterTest.java
+    Lines: 163
+PdfContentImporterTest.java
+    Lines: 48
+BibtexParserTest.java
+    Lines: 1707
+BiblioscapeImporterTest.java
+    Lines: 52
+RISImporterTestFiles.java
+    Lines: 30
+BibTeXMLImporterTest.java
+    Lines: 39
+Folder: ./src/test/java/org/jabref/logic/importer/fileformat
+--------------------------------------------------------
+AstrophysicsDataSystemTest.java
+    Lines: 206
+INSPIREFetcherTest.java
+    Lines: 46
+ArXivTest.java
+    Lines: 198
+IsbnViaEbookDeFetcherTest.java
+    Lines: 92
+MrDLibFetcherTest.java
+    Lines: 60
+MathSciNetTest.java
+    Lines: 76
+IsbnViaChimboriFetcherTest.java
+    Lines: 92
+GoogleScholarTest.java
+    Lines: 82
+DoiResolutionTest.java
+    Lines: 52
+RfcFetcherTest.java
+    Lines: 78
+ACSTest.java
+    Lines: 46
+CrossRefTest.java
+    Lines: 140
+AbstractIsbnFetcherTest.java
+    Lines: 55
+DiVATest.java
+    Lines: 73
+FulltextFetcherTest.java
+    Lines: 36
+LibraryOfCongressTest.java
+    Lines: 57
+ZbMATHTest.java
+    Lines: 54
+IEEETest.java
+    Lines: 121
+MedlineFetcherTest.java
+    Lines: 186
+IsbnFetcherTest.java
+    Lines: 98
+IacrEprintFetcherTest.java
+    Lines: 188
+DOAJFetcherTest.java
+    Lines: 76
+OpenAccessDoiTest.java
+    Lines: 40
+ScienceDirectTest.java
+    Lines: 57
+SpringerLinkTest.java
+    Lines: 52
+ACMPortalFetcherTest.java
+    Lines: 53
+TitleFetcherTest.java
+    Lines: 67
+CiteSeerTest.java
+    Lines: 50
+DBLPFetcherTest.java
+    Lines: 72
+GvkParserTest.java
+    Lines: 75
+SpringerFetcherTest.java
+    Lines: 74
+GvkFetcherTest.java
+    Lines: 121
+DoiFetcherTest.java
+    Lines: 90
+Folder: ./src/test/java/org/jabref/logic/importer/fetcher
+--------------------------------------------------------
+SpecialFieldsUtilsTest.java
+    Lines: 91
+Folder: ./src/test/java/org/jabref/logic/specialfields
+--------------------------------------------------------
+DevelopmentStageTest.java
+    Lines: 38
+VersionTest.java
+    Lines: 287
+BracketedPatternTest.java
+    Lines: 243
+BuildInfoTest.java
+    Lines: 29
+JavaVersionTest.java
+    Lines: 84
+UpdateFieldTest.java
+    Lines: 172
+Folder: ./src/test/java/org/jabref/logic/util
+--------------------------------------------------------
+StringLengthComparatorTest.java
+    Lines: 25
+DiffHighlightingTest.java
+    Lines: 81
+Folder: ./src/test/java/org/jabref/logic/util/strings
+--------------------------------------------------------
+FileUtilTest.java
+    Lines: 378
+RegExpBasedFileFinderTests.java
+    Lines: 173
+FileHistoryTest.java
+    Lines: 52
+CiteKeyBasedFileFinderTest.java
+    Lines: 105
+FileNameCleanerTest.java
+    Lines: 28
+Folder: ./src/test/java/org/jabref/logic/util/io
+--------------------------------------------------------
+LayoutEntryTest.java
+    Lines: 99
+LayoutTest.java
+    Lines: 123
+Folder: ./src/test/java/org/jabref/logic/layout
+--------------------------------------------------------
+DefaultTest.java
+    Lines: 49
+RTFCharsTest.java
+    Lines: 189
+RisMonthTest.java
+    Lines: 29
+ToLowerCaseTest.java
+    Lines: 35
+AuthorAndsCommaReplacerTest.java
+    Lines: 33
+AuthorLastFirstAbbrCommasTest.java
+    Lines: 36
+AuthorFirstAbbrLastCommasTest.java
+    Lines: 32
+ReplaceUnicodeLigaturesFormatterTest.java
+    Lines: 38
+AuthorAbbreviatorTest.java
+    Lines: 27
+AuthorNatBibTest.java
+    Lines: 27
+AuthorLastFirstAbbreviatorTester.java
+    Lines: 64
+AuthorFirstFirstCommasTest.java
+    Lines: 19
+AuthorsTest.java
+    Lines: 157
+AuthorAndToSemicolonReplacerTest.java
+    Lines: 31
+CompositeFormatTest.java
+    Lines: 37
+AuthorAndsReplacerTest.java
+    Lines: 36
+AuthorLastFirstOxfordCommasTest.java
+    Lines: 35
+RemoveTildeTest.java
+    Lines: 28
+ToUpperCaseTest.java
+    Lines: 35
+DOIStripTest.java
+    Lines: 26
+AuthorLastFirstTest.java
+    Lines: 32
+AuthorFirstLastCommasTest.java
+    Lines: 35
+AuthorLastFirstAbbrOxfordCommasTest.java
+    Lines: 35
+HTMLParagraphsTest.java
+    Lines: 23
+WrapContentTest.java
+    Lines: 64
+NameFormatterTest.java
+    Lines: 62
+RemoveBracketsAddCommaTest.java
+    Lines: 24
+AuthorOrgSciTest.java
+    Lines: 27
+RemoveWhitespaceTest.java
+    Lines: 34
+HTMLCharsTest.java
+    Lines: 106
+AuthorFirstFirstTest.java
+    Lines: 19
+AuthorLastFirstCommasTest.java
+    Lines: 37
+DateFormatterTest.java
+    Lines: 29
+OrdinalTest.java
+    Lines: 53
+ReplaceTest.java
+    Lines: 50
+DOICheckTest.java
+    Lines: 38
+AuthorLF_FFTest.java
+    Lines: 19
+LastPageTest.java
+    Lines: 45
+FileLinkTest.java
+    Lines: 64
+WrapFileLinksTest.java
+    Lines: 134
+LatexToUnicodeFormatterTest.java
+    Lines: 194
+IfPluralTest.java
+    Lines: 50
+RisKeywordsTest.java
+    Lines: 37
+AuthorLF_FFAbbrTest.java
+    Lines: 19
+FirstPageTest.java
+    Lines: 39
+AuthorFirstAbbrLastOxfordCommasTest.java
+    Lines: 35
+NoSpaceBetweenAbbreviationsTest.java
+    Lines: 20
+EntryTypeFormatterTest.java
+    Lines: 33
+AuthorFirstLastOxfordCommasTest.java
+    Lines: 35
+RemoveBracketsTest.java
+    Lines: 25
+Folder: ./src/test/java/org/jabref/logic/layout/format
+--------------------------------------------------------
+ProtectedTermsLoaderTest.java
+    Lines: 222
+ProtectedTermsListTest.java
+    Lines: 103
+Folder: ./src/test/java/org/jabref/logic/protectedterms
+--------------------------------------------------------
+EntryAnnotationImporterTest.java
+    Lines: 52
+PdfAnnotationImporterTest.java
+    Lines: 147
+Folder: ./src/test/java/org/jabref/logic/pdf
+--------------------------------------------------------
+TestConnector.java
+    Lines: 33
+TestManager.java
+    Lines: 51
+DBMSSynchronizerTest.java
+    Lines: 220
+DBMSProcessorTest.java
+    Lines: 307
+DBMSTypeTest.java
+    Lines: 50
+DBMSConnectionTest.java
+    Lines: 31
+SynchronizationTestSimulator.java
+    Lines: 180
+SynchronizationTestEventListener.java
+    Lines: 33
+Folder: ./src/test/java/org/jabref/logic/shared
+--------------------------------------------------------
+XmpUtilReaderTest.java
+    Lines: 108
+XmpUtilWriterTest.java
+    Lines: 147
+Folder: ./src/test/java/org/jabref/logic/xmp
+--------------------------------------------------------
+DatabaseSearcherTest.java
+    Lines: 127
+SearchQueryHighlightObservableTest.java
+    Lines: 61
+SearchQueryTest.java
+    Lines: 198
+Folder: ./src/test/java/org/jabref/logic/search
+--------------------------------------------------------
+ShippedJournalAbbreviationDuplicateTest.java
+    Lines: 33
+AbbreviationsTest.java
+    Lines: 59
+AbbreviationTest.java
+    Lines: 51
+JournalAbbreviationRepositoryTest.java
+    Lines: 71
+AbbreviationParserTest.java
+    Lines: 15
+Folder: ./src/test/java/org/jabref/logic/journals
+--------------------------------------------------------
+FormatterTest.java
+    Lines: 119
+IdentityFormatterTest.java
+    Lines: 24
+Folder: ./src/test/java/org/jabref/logic/formatter
+--------------------------------------------------------
+MinifyNameListFormatterTest.java
+    Lines: 38
+Folder: ./src/test/java/org/jabref/logic/formatter/minifier
+--------------------------------------------------------
+UpperCaseFormatterTest.java
+    Lines: 34
+CapitalizeFormatterTest.java
+    Lines: 32
+SentenceCaseFormatterTest.java
+    Lines: 33
+LowerCaseFormatterTest.java
+    Lines: 32
+ProtectTermsFormatterTest.java
+    Lines: 59
+TitleCaseFormatterTest.java
+    Lines: 88
+Folder: ./src/test/java/org/jabref/logic/formatter/casechanger
+--------------------------------------------------------
+UnicodeToLatexFormatterTest.java
+    Lines: 34
+RemoveHyphenatedNewlinesFormatterTest.java
+    Lines: 28
+UnicodeConverterTest.java
+    Lines: 42
+AddBracesFormatterTest.java
+    Lines: 76
+UnitsToLatexFormatterTest.java
+    Lines: 31
+HtmlToLatexFormatterTest.java
+    Lines: 65
+RegexFormatterTest.java
+    Lines: 55
+NormalizeEnDashesFormatterTest.java
+    Lines: 54
+NormalizeNamesFormatterTest.java
+    Lines: 183
+RemoveBracesFormatterTest.java
+    Lines: 76
+CleanupUrlFormatterTest.java
+    Lines: 38
+LatexCleanupFormatterTest.java
+    Lines: 49
+HtmlToUnicodeFormatterTest.java
+    Lines: 61
+NormalizeDateFormatterTest.java
+    Lines: 139
+NormalizeMonthFormatterTest.java
+    Lines: 25
+RemoveNewlinesFormatterTest.java
+    Lines: 38
+OrdinalsToSuperscriptFormatterTest.java
+    Lines: 65
+NormalizePagesFormatterTest.java
+    Lines: 112
+ClearFormatterTest.java
+    Lines: 42
+EscapeUnderscoresFormatterTest.java
+    Lines: 37
+Folder: ./src/test/java/org/jabref/logic/formatter/bibtexfields
+--------------------------------------------------------
+ISSNCleanupTest.java
+    Lines: 57
+CleanupWorkerTest.java
+    Lines: 358
+MoveFilesCleanupTest.java
+    Lines: 184
+FieldFormatterCleanupTest.java
+    Lines: 95
+BibtexBiblatexRoundtripTest.java
+    Lines: 62
+RenamePdfCleanupTest.java
+    Lines: 158
+ConvertToBiblatexCleanupTest.java
+    Lines: 58
+ConvertToBibtexCleanupTest.java
+    Lines: 64
+Folder: ./src/test/java/org/jabref/logic/cleanup
+--------------------------------------------------------
+LatexFieldFormatterTests.java
+    Lines: 130
+BibEntryWriterTest.java
+    Lines: 494
+DuplicateCheckTest.java
+    Lines: 284
+BibEntryAssert.java
+    Lines: 148
+FieldContentParserTest.java
+    Lines: 55
+Folder: ./src/test/java/org/jabref/logic/bibtex
+--------------------------------------------------------
+CrossRefEntryComparatorTest.java
+    Lines: 56
+BibtexStringComparatorTest.java
+    Lines: 48
+MetaDataDiffTest.java
+    Lines: 23
+EntryComparatorTest.java
+    Lines: 16
+FieldComparatorTest.java
+    Lines: 184
+BibDatabaseDiffTest.java
+    Lines: 23
+Folder: ./src/test/java/org/jabref/logic/bibtex/comparator
+--------------------------------------------------------
+BackupManagerTest.java
+    Lines: 19
+Folder: ./src/test/java/org/jabref/logic/autosaveandbackup
+--------------------------------------------------------
+MsBibAuthorTest.java
+    Lines: 48
+Folder: ./src/test/java/org/jabref/logic/msbib
+--------------------------------------------------------
+BracesCorrectorTest.java
+    Lines: 45
+PersonNamesCheckerTest.java
+    Lines: 65
+DateCheckerTest.java
+    Lines: 28
+IntegrityCheckTest.java
+    Lines: 414
+AbbreviationCheckerTest.java
+    Lines: 35
+NoBibTexFieldCheckerTest.java
+    Lines: 100
+EntryLinkCheckerTest.java
+    Lines: 99
+Folder: ./src/test/java/org/jabref/logic/integrity
+--------------------------------------------------------
+XmpExporterTest.java
+    Lines: 111
+HtmlExportFormatTest.java
+    Lines: 65
+GroupSerializerTest.java
+    Lines: 161
+BibtexDatabaseWriterTest.java
+    Lines: 599
+MSBibExportFormatTestFiles.java
+    Lines: 85
+CsvExportFormatTest.java
+    Lines: 122
+ModsExportFormatTest.java
+    Lines: 47
+ExporterTest.java
+    Lines: 87
+BibTeXMLExporterTestFiles.java
+    Lines: 84
+FieldFormatterCleanupsTest.java
+    Lines: 150
+MetaDataSerializerTest.java
+    Lines: 65
+ModsExportFormatTestFiles.java
+    Lines: 122
+MsBibExportFormatTest.java
+    Lines: 43
+Folder: ./src/test/java/org/jabref/logic/exporter
+--------------------------------------------------------
+CitationStyleTest.java
+    Lines: 31
+CitationStyleGeneratorTest.java
+    Lines: 120
+Folder: ./src/test/java/org/jabref/logic/citationstyle
+--------------------------------------------------------
+HelpFileTest.java
+    Lines: 26
+Folder: ./src/test/java/org/jabref/logic/help
+--------------------------------------------------------
+CitationEntryTest.java
+    Lines: 87
+OOBibStyleTest.java
+    Lines: 514
+OOPreFormatterTest.java
+    Lines: 66
+StyleLoaderTest.java
+    Lines: 210
+Folder: ./src/test/java/org/jabref/logic/openoffice
+--------------------------------------------------------
+AuxParserTest.java
+    Lines: 162
+Folder: ./src/test/java/org/jabref/logic/auxparser
+--------------------------------------------------------
+RemoteUtilTest.java
+    Lines: 33
+RemoteSetupTest.java
+    Lines: 143
+RemoteCommunicationTest.java
+    Lines: 76
+RemotePreferencesTest.java
+    Lines: 52
+Folder: ./src/test/java/org/jabref/logic/remote
+--------------------------------------------------------
+TestVM.java
+    Lines: 670
+BibtexWidthTest.java
+    Lines: 73
+TextPrefixFunctionTest.java
+    Lines: 27
+BibtexNameFormatterTest.java
+    Lines: 118
+BibtexCaseChangersTest.java
+    Lines: 136
+BibtexPurifyTest.java
+    Lines: 26
+Folder: ./src/test/java/org/jabref/logic/bst
+--------------------------------------------------------
+JabRefCLITest.java
+    Lines: 58
+AuxCommandLineTest.java
+    Lines: 49
+Folder: ./src/test/java/org/jabref/cli
+--------------------------------------------------------
+MainArchitectureTests.java
+    Lines: 114
+MainArchitectureTestsWithArchUnit.java
+    Lines: 20
+TestArchitectureTests.java
+    Lines: 80
+Folder: ./src/test/java/org/jabref/architecture
+--------------------------------------------------------
+CleanupActionsListModelTest.java
+    Lines: 97
+Folder: ./src/test/java/org/jabref/cleanup
+--------------------------------------------------------
+CIServerCondition.java
+    Lines: 44
+DisabledOnCIServer.java
+    Lines: 15
+Folder: ./src/test/java/org/jabref/support
+--------------------------------------------------------
+ParameterizedMenuNewEntryTest.java
+    Lines: 65
+IdFetcherDialogTest.java
+    Lines: 123
+ParameterizedDialogTest.java
+    Lines: 134
+UndoTest.java
+    Lines: 66
+AbstractUITest.java
+    Lines: 109
+ParameterizedDialogNewEntryTest.java
+    Lines: 192
+DialogTest.java
+    Lines: 51
+UpdateTimestampListenerTest.java
+    Lines: 83
+EntryTableTest.java
+    Lines: 67
+DialogTest2.java
+    Lines: 43
+AWTExceptionHandler.java
+    Lines: 25
+BasePanelTest.java
+    Lines: 71
+GUITest.java
+    Lines: 99
+Folder: ./src/test/java/org/jabref/gui
+--------------------------------------------------------
+LinkedFileViewModelTest.java
+    Lines: 141
+IdentifierEditorViewModelTest.java
+    Lines: 27
+Folder: ./src/test/java/org/jabref/gui/fieldeditors
+--------------------------------------------------------
+EntryFromFileCreatorManagerTest.java
+    Lines: 94
+EntryFromPDFCreatorTest.java
+    Lines: 60
+Folder: ./src/test/java/org/jabref/gui/importer
+--------------------------------------------------------
+TooltipTextUtilTest.java
+    Lines: 129
+FileDialogConfigurationTest.java
+    Lines: 83
+RecursiveTreeItemTest.java
+    Lines: 59
+Folder: ./src/test/java/org/jabref/gui/util
+--------------------------------------------------------
+GroupTreeViewModelTest.java
+    Lines: 71
+GroupNodeViewModelTest.java
+    Lines: 175
+Folder: ./src/test/java/org/jabref/gui/groups
+--------------------------------------------------------
+DefaultAutoCompleterTest.java
+    Lines: 154
+AutoCompleterUtil.java
+    Lines: 19
+FieldValueSuggestionProviderTest.java
+    Lines: 164
+BibEntrySuggestionProviderTest.java
+    Lines: 119
+PersonNameSuggestionProviderTest.java
+    Lines: 186
+Folder: ./src/test/java/org/jabref/gui/autocompleter
+--------------------------------------------------------
+SearchResultsTest.java
+    Lines: 98
+TextFlowEqualityHelper.java
+    Lines: 44
+ContainsAndRegexBasedSearchRuleDescriberTest.java
+    Lines: 89
+GrammarBasedSearchRuleDescriberTest.java
+    Lines: 126
+Folder: ./src/test/java/org/jabref/gui/search
+--------------------------------------------------------
+AutoSetFileLinksUtilTest.java
+    Lines: 55
+Folder: ./src/test/java/org/jabref/gui/externalfiles
+--------------------------------------------------------
+ManageJournalAbbreviationsViewModelTest.java
+    Lines: 483
+Folder: ./src/test/java/org/jabref/gui/journals
+--------------------------------------------------------
+CitationStyleToClipboardWorkerTest.java
+    Lines: 228
+Folder: ./src/test/java/org/jabref/gui/worker
+--------------------------------------------------------
+KeyBindingsDialogViewModelTest.java
+    Lines: 196
+Folder: ./src/test/java/org/jabref/gui/keyboard
+--------------------------------------------------------
+SourceTabTest.java
+    Lines: 75
+Folder: ./src/test/java/org/jabref/gui/entryeditor
+--------------------------------------------------------
+FileAnnotationViewModelTest.java
+    Lines: 37
+Folder: ./src/test/java/org/jabref/gui/entryeditor/fileannotationtab
+--------------------------------------------------------
+TreeNodeTestData.java
+    Lines: 121
+TreeNodeTest.java
+    Lines: 641
+BibDatabaseContextTest.java
+    Lines: 51
+EntryTypesTest.java
+    Lines: 180
+Folder: ./src/test/java/org/jabref/model
+--------------------------------------------------------
+BibDatabaseTest.java
+    Lines: 323
+DuplicationCheckerTest.java
+    Lines: 110
+BibDatabaseModeDetectionTest.java
+    Lines: 72
+KeyChangeListenerTest.java
+    Lines: 93
+BibDatabaseContextTest.java
+    Lines: 74
+Folder: ./src/test/java/org/jabref/model/database
+--------------------------------------------------------
+AutosaveEventTest.java
+    Lines: 14
+Folder: ./src/test/java/org/jabref/model/database/event
+--------------------------------------------------------
+StringUtilTest.java
+    Lines: 348
+Folder: ./src/test/java/org/jabref/model/strings
+--------------------------------------------------------
+BibEntryTests.java
+    Lines: 428
+KeywordListTest.java
+    Lines: 92
+DateTest.java
+    Lines: 43
+BibtexStringTest.java
+    Lines: 44
+KeywordTest.java
+    Lines: 28
+FileFieldWriterTest.java
+    Lines: 119
+AuthorListParameterTest.java
+    Lines: 41
+AuthorTest.java
+    Lines: 39
+MonthTest.java
+    Lines: 154
+CanonicalBibEntryTest.java
+    Lines: 30
+FieldNameTest.java
+    Lines: 19
+IdGeneratorTest.java
+    Lines: 23
+AuthorListTest.java
+    Lines: 681
+BibEntryTest.java
+    Lines: 136
+IEEETranEntryTypesTest.java
+    Lines: 20
+EntryLinkListTest.java
+    Lines: 78
+BibEntryEqualityTest.java
+    Lines: 40
+FileFieldBibEntryTest.java
+    Lines: 61
+Folder: ./src/test/java/org/jabref/model/entry
+--------------------------------------------------------
+SpecialFieldTest.java
+    Lines: 34
+Folder: ./src/test/java/org/jabref/model/entry/specialfields
+--------------------------------------------------------
+EprintTest.java
+    Lines: 60
+ISSNTest.java
+    Lines: 62
+ArXivIdentifierTest.java
+    Lines: 24
+MathSciNetIdTest.java
+    Lines: 16
+DOITest.java
+    Lines: 154
+ISBNTest.java
+    Lines: 74
+Folder: ./src/test/java/org/jabref/model/entry/identifier
+--------------------------------------------------------
+FileAnnotationTest.java
+    Lines: 41
+Folder: ./src/test/java/org/jabref/model/pdf
+--------------------------------------------------------
+ExplicitGroupTest.java
+    Lines: 96
+SearchGroupTest.java
+    Lines: 20
+GroupTreeNodeTest.java
+    Lines: 286
+TexGroupTest.java
+    Lines: 37
+AutomaticKeywordGroupTest.java
+    Lines: 24
+WordKeywordGroupTest.java
+    Lines: 124
+Folder: ./src/test/java/org/jabref/model/groups
+--------------------------------------------------------
+ContainBasedSearchRuleTest.java
+    Lines: 54
+MockSearchMatcher.java
+    Lines: 21
+SentenceAnalyzerTest.java
+    Lines: 20
+Folder: ./src/test/java/org/jabref/model/search/rules
+--------------------------------------------------------
+MatcherSetsTest.java
+    Lines: 50
+Folder: ./src/test/java/org/jabref/model/search/matchers
+--------------------------------------------------------
+TestEventListener.java
+    Lines: 34
+Folder: ./src/test/java/org/jabref/model/event
+--------------------------------------------------------
+MetaDataTest.java
+    Lines: 23
+Folder: ./src/test/java/org/jabref/model/metadata
+--------------------------------------------------------
+BibtexEntryGenerator.java
+    Lines: 27
+Folder: ./src/test/java/org/jabref/performance
+--------------------------------------------------------
+TestUtils.java
+    Lines: 29
+Folder: ./src/test/java/org/jabref/testutils
+--------------------------------------------------------
+DatabaseTest.java
+    Lines: 16
+GUITest.java
+    Lines: 17
+FetcherTest.java
+    Lines: 17
+Folder: ./src/test/java/org/jabref/testutils/category
+--------------------------------------------------------
+MacAdapter.java
+    Lines: 83
+Folder: ./src/main/java/osx/macadapter
+--------------------------------------------------------
+JabRefMain.java
+    Lines: 185
+FallbackExceptionHandler.java
+    Lines: 21
+JabRefGUI.java
+    Lines: 262
+JabRefException.java
+    Lines: 43
+JabRefExecutorService.java
+    Lines: 169
+Globals.java
+    Lines: 144
+Folder: ./src/main/java/org/jabref
+--------------------------------------------------------
+ImportDialog.java
+    Lines: 235
+PdfImporter.java
+    Lines: 285
+PdfFileFilter.java
+    Lines: 28
+Folder: ./src/main/java/org/jabref/pdfimport
+--------------------------------------------------------
+ConvertLegacyExplicitGroups.java
+    Lines: 50
+CustomEntryTypePreferenceMigration.java
+    Lines: 65
+FileLinksUpgradeWarning.java
+    Lines: 256
+MergeReviewIntoCommentMigration.java
+    Lines: 75
+PreferencesMigrations.java
+    Lines: 290
+ConvertMarkingToGroups.java
+    Lines: 92
+PostOpenMigration.java
+    Lines: 7
+Folder: ./src/main/java/org/jabref/migrations
+--------------------------------------------------------
+ExportComparator.java
+    Lines: 13
+SearchPreferences.java
+    Lines: 116
+JabRefPreferences.java
+    Lines: 1931
+CustomImportList.java
+    Lines: 83
+LastFocusedTabPreferences.java
+    Lines: 31
+JabRefPreferencesFilter.java
+    Lines: 101
+CustomExportList.java
+    Lines: 142
+PreferencesService.java
+    Lines: 24
+PreviewPreferences.java
+    Lines: 114
+VersionPreferences.java
+    Lines: 18
+Folder: ./src/main/java/org/jabref/preferences
+--------------------------------------------------------
+TypedBibEntry.java
+    Lines: 61
+Folder: ./src/main/java/org/jabref/logic
+--------------------------------------------------------
+BracketedPattern.java
+    Lines: 1381
+BibtexKeyGenerator.java
+    Lines: 196
+BibtexKeyPatternPreferences.java
+    Lines: 54
+Folder: ./src/main/java/org/jabref/logic/bibtexkeypattern
+--------------------------------------------------------
+TimestampPreferences.java
+    Lines: 49
+Folder: ./src/main/java/org/jabref/logic/preferences
+--------------------------------------------------------
+LocalizationKeyParams.java
+    Lines: 31
+EncodingControl.java
+    Lines: 58
+LocalizationKey.java
+    Lines: 28
+Encodings.java
+    Lines: 28
+Languages.java
+    Lines: 63
+Localization.java
+    Lines: 189
+LocalizationLocator.java
+    Lines: 12
+Folder: ./src/main/java/org/jabref/logic/l10n
+--------------------------------------------------------
+URLUtil.java
+    Lines: 105
+URLDownload.java
+    Lines: 338
+ProgressInputStream.java
+    Lines: 88
+ProxyRegisterer.java
+    Lines: 32
+ProxyAuthenticator.java
+    Lines: 23
+ProxyPreferences.java
+    Lines: 106
+Folder: ./src/main/java/org/jabref/logic/net
+--------------------------------------------------------
+OutputPrinter.java
+    Lines: 11
+Importer.java
+    Lines: 199
+SearchBasedParserFetcher.java
+    Lines: 75
+ImportFormatPreferences.java
+    Lines: 73
+SearchBasedFetcher.java
+    Lines: 20
+FulltextFetcher.java
+    Lines: 36
+IdBasedParserFetcher.java
+    Lines: 90
+Parser.java
+    Lines: 19
+WebFetcher.java
+    Lines: 28
+ImportException.java
+    Lines: 19
+IdBasedFetcher.java
+    Lines: 20
+IdFetcher.java
+    Lines: 25
+ParseException.java
+    Lines: 16
+EntryBasedFetcher.java
+    Lines: 21
+WebFetchers.java
+    Lines: 152
+FetcherException.java
+    Lines: 19
+ImportFormatReader.java
+    Lines: 256
+ParserResult.java
+    Lines: 192
+OpenDatabase.java
+    Lines: 99
+FulltextFetchers.java
+    Lines: 116
+IdParserFetcher.java
+    Lines: 98
+FetcherResult.java
+    Lines: 23
+EntryBasedParserFetcher.java
+    Lines: 71
+Folder: ./src/main/java/org/jabref/logic/importer
+--------------------------------------------------------
+IdentifierParser.java
+    Lines: 39
+INSPIREBibtexFilterReader.java
+    Lines: 84
+GroupsParser.java
+    Lines: 283
+JsonReader.java
+    Lines: 36
+MetaDataParser.java
+    Lines: 159
+Folder: ./src/main/java/org/jabref/logic/importer/util
+--------------------------------------------------------
+PdfContentImporter.java
+    Lines: 604
+GvkParser.java
+    Lines: 493
+InspecImporter.java
+    Lines: 132
+CustomImporter.java
+    Lines: 113
+MedlinePlainImporter.java
+    Lines: 408
+RepecNepImporter.java
+    Lines: 426
+EndnoteXmlImporter.java
+    Lines: 306
+BibtexImporter.java
+    Lines: 133
+MrDLibImporter.java
+    Lines: 258
+IsiImporter.java
+    Lines: 421
+OvidImporter.java
+    Lines: 245
+SilverPlatterImporter.java
+    Lines: 193
+EndnoteImporter.java
+    Lines: 292
+CoinsParser.java
+    Lines: 78
+BibTeXMLImporter.java
+    Lines: 247
+MsBibImporter.java
+    Lines: 120
+FreeCiteImporter.java
+    Lines: 231
+RisImporter.java
+    Lines: 286
+CopacImporter.java
+    Lines: 149
+BiblioscapeImporter.java
+    Lines: 285
+MedlineImporter.java
+    Lines: 712
+PdfXmpImporter.java
+    Lines: 91
+ModsImporter.java
+    Lines: 498
+BibtexParser.java
+    Lines: 939
+Folder: ./src/main/java/org/jabref/logic/importer/fileformat
+--------------------------------------------------------
+package-info.java
+    Lines: 14
+Folder: ./src/main/java/org/jabref/logic/importer/fileformat/mods
+--------------------------------------------------------
+DOAJFetcher.java
+    Lines: 192
+DBLPFetcher.java
+    Lines: 79
+MrDLibFetcher.java
+    Lines: 125
+DiVA.java
+    Lines: 58
+SpringerLink.java
+    Lines: 67
+TitleFetcher.java
+    Lines: 46
+OpenAccessDoi.java
+    Lines: 63
+LibraryOfCongress.java
+    Lines: 41
+ACMPortalFetcher.java
+    Lines: 57
+IsbnViaChimboriFetcher.java
+    Lines: 91
+ScienceDirect.java
+    Lines: 120
+DoiFetcher.java
+    Lines: 83
+DoiResolution.java
+    Lines: 93
+GoogleScholar.java
+    Lines: 199
+IsbnViaEbookDeFetcher.java
+    Lines: 53
+CrossRef.java
+    Lines: 196
+IsbnFetcher.java
+    Lines: 62
+MedlineFetcher.java
+    Lines: 225
+MathSciNet.java
+    Lines: 116
+IEEE.java
+    Lines: 234
+GvkFetcher.java
+    Lines: 90
+CiteSeer.java
+    Lines: 95
+TrustLevel.java
+    Lines: 19
+IacrEprintFetcher.java
+    Lines: 204
+RfcFetcher.java
+    Lines: 56
+INSPIREFetcher.java
+    Lines: 93
+SpringerFetcher.java
+    Lines: 183
+AstrophysicsDataSystem.java
+    Lines: 169
+AbstractIsbnFetcher.java
+    Lines: 40
+ZbMATH.java
+    Lines: 76
+ArXiv.java
+    Lines: 423
+BibsonomyScraper.java
+    Lines: 56
+ACS.java
+    Lines: 63
+Folder: ./src/main/java/org/jabref/logic/importer/fetcher
+--------------------------------------------------------
+SpecialFieldsUtils.java
+    Lines: 121
+Folder: ./src/main/java/org/jabref/logic/specialfields
+--------------------------------------------------------
+BuildInfo.java
+    Lines: 81
+MetadataSerializationConfiguration.java
+    Lines: 69
+FileType.java
+    Lines: 19
+StandardFileType.java
+    Lines: 55
+UpdateField.java
+    Lines: 151
+TestEntry.java
+    Lines: 32
+JavaVersion.java
+    Lines: 82
+OS.java
+    Lines: 25
+UpdateFieldPreferences.java
+    Lines: 53
+Version.java
+    Lines: 291
+Folder: ./src/main/java/org/jabref/logic/util
+--------------------------------------------------------
+UnicodeLigaturesMap.java
+    Lines: 68
+RtfCharMap.java
+    Lines: 269
+StringLengthComparator.java
+    Lines: 16
+StringSimilarity.java
+    Lines: 27
+DiffHighlighting.java
+    Lines: 103
+HTMLUnicodeConversionMaps.java
+    Lines: 911
+XmlCharsMap.java
+    Lines: 135
+QuotedStringTokenizer.java
+    Lines: 67
+Folder: ./src/main/java/org/jabref/logic/util/strings
+--------------------------------------------------------
+FileNameCleaner.java
+    Lines: 73
+AutoLinkPreferences.java
+    Lines: 31
+XMLUtil.java
+    Lines: 134
+FileUtil.java
+    Lines: 343
+FileHistory.java
+    Lines: 51
+FileBasedLock.java
+    Lines: 127
+DatabaseFileLookup.java
+    Lines: 72
+CiteKeyBasedFileFinder.java
+    Lines: 99
+RegExpBasedFileFinder.java
+    Lines: 214
+FileFinder.java
+    Lines: 20
+FileFinders.java
+    Lines: 14
+Folder: ./src/main/java/org/jabref/logic/util/io
+--------------------------------------------------------
+ParamLayoutFormatter.java
+    Lines: 20
+LayoutEntry.java
+    Lines: 678
+AbstractParamLayoutFormatter.java
+    Lines: 59
+Layout.java
+    Lines: 135
+StringInt.java
+    Lines: 29
+LayoutHelper.java
+    Lines: 370
+LayoutFormatterPreferences.java
+    Lines: 56
+LayoutFormatter.java
+    Lines: 31
+Folder: ./src/main/java/org/jabref/logic/layout
+--------------------------------------------------------
+ToUpperCase.java
+    Lines: 21
+EntryTypeFormatter.java
+    Lines: 26
+LatexToUnicodeFormatter.java
+    Lines: 39
+Iso690FormatDate.java
+    Lines: 28
+Default.java
+    Lines: 22
+RemoveLatexCommandsFormatter.java
+    Lines: 65
+AuthorAndsCommaReplacer.java
+    Lines: 44
+AuthorLastFirst.java
+    Lines: 12
+ToLowerCase.java
+    Lines: 19
+FirstPage.java
+    Lines: 26
+NameFormatter.java
+    Lines: 184
+AuthorLF_FF.java
+    Lines: 17
+AuthorLastFirstAbbrOxfordCommas.java
+    Lines: 22
+RemoveBracketsAddComma.java
+    Lines: 22
+FileLinkPreferences.java
+    Lines: 21
+AuthorAbbreviator.java
+    Lines: 23
+RisMonth.java
+    Lines: 20
+FormatPagesForHTML.java
+    Lines: 11
+AuthorFirstAbbrLastCommas.java
+    Lines: 20
+FormatPagesForXML.java
+    Lines: 11
+Replace.java
+    Lines: 60
+AuthorNatBib.java
+    Lines: 16
+FileLink.java
+    Lines: 78
+CreateDocBookAuthors.java
+    Lines: 50
+NotFoundFormatter.java
+    Lines: 28
+AuthorFirstFirstCommas.java
+    Lines: 20
+NameFormatterPreferences.java
+    Lines: 23
+AuthorLastFirstAbbrCommas.java
+    Lines: 21
+RisAuthors.java
+    Lines: 33
+Number.java
+    Lines: 21
+AuthorFirstAbbrLastOxfordCommas.java
+    Lines: 22
+CurrentDate.java
+    Lines: 28
+DateFormatter.java
+    Lines: 24
+CompositeFormat.java
+    Lines: 43
+DOICheck.java
+    Lines: 23
+LastPage.java
+    Lines: 28
+Authors.java
+    Lines: 309
+AuthorOrgSci.java
+    Lines: 40
+RemoveBrackets.java
+    Lines: 24
+JournalAbbreviator.java
+    Lines: 39
+NoSpaceBetweenAbbreviations.java
+    Lines: 34
+AuthorLastFirstAbbreviator.java
+    Lines: 27
+AuthorAndsReplacer.java
+    Lines: 47
+AuthorFirstFirst.java
+    Lines: 16
+AuthorLastFirstCommas.java
+    Lines: 20
+Iso690NamesAuthors.java
+    Lines: 87
+HTMLChars.java
+    Lines: 225
+AuthorLastFirstOxfordCommas.java
+    Lines: 20
+RTFChars.java
+    Lines: 347
+HTMLParagraphs.java
+    Lines: 45
+GetOpenOfficeType.java
+    Lines: 57
+CreateBibORDFAuthors.java
+    Lines: 45
+CreateDocBookEditors.java
+    Lines: 21
+Ordinal.java
+    Lines: 46
+ReplaceUnicodeLigaturesFormatter.java
+    Lines: 53
+DOIStrip.java
+    Lines: 18
+RemoveTilde.java
+    Lines: 31
+XMLChars.java
+    Lines: 98
+RisKeywords.java
+    Lines: 28
+IfPlural.java
+    Lines: 47
+WrapContent.java
+    Lines: 45
+RemoveWhitespace.java
+    Lines: 29
+WrapFileLinks.java
+    Lines: 288
+AuthorFirstLastOxfordCommas.java
+    Lines: 21
+AuthorFirstLastCommas.java
+    Lines: 21
+AuthorLF_FFAbbr.java
+    Lines: 17
+AuthorAndToSemicolonReplacer.java
+    Lines: 12
+Folder: ./src/main/java/org/jabref/logic/layout/format
+--------------------------------------------------------
+ProtectedTermsList.java
+    Lines: 115
+ProtectedTermsLoader.java
+    Lines: 164
+ProtectedTermsParser.java
+    Lines: 101
+ProtectedTermsPreferences.java
+    Lines: 37
+Folder: ./src/main/java/org/jabref/logic/protectedterms
+--------------------------------------------------------
+PdfAnnotationImporter.java
+    Lines: 126
+TextExtractor.java
+    Lines: 86
+EntryAnnotationImporter.java
+    Lines: 58
+FileAnnotationCache.java
+    Lines: 59
+AnnotationImporter.java
+    Lines: 11
+Folder: ./src/main/java/org/jabref/logic/pdf
+--------------------------------------------------------
+MySQLProcessor.java
+    Lines: 46
+DBMSConnection.java
+    Lines: 77
+DBMSSynchronizer.java
+    Lines: 405
+PostgreSQLProcessor.java
+    Lines: 115
+DBMSProcessor.java
+    Lines: 616
+DBMSConnectionProperties.java
+    Lines: 155
+OracleProcessor.java
+    Lines: 114
+Folder: ./src/main/java/org/jabref/logic/shared
+--------------------------------------------------------
+SharedDatabasePreferences.java
+    Lines: 133
+Folder: ./src/main/java/org/jabref/logic/shared/prefs
+--------------------------------------------------------
+PostgresSQLNotificationListener.java
+    Lines: 50
+OracleNotificationListener.java
+    Lines: 24
+Folder: ./src/main/java/org/jabref/logic/shared/listener
+--------------------------------------------------------
+Password.java
+    Lines: 66
+Folder: ./src/main/java/org/jabref/logic/shared/security
+--------------------------------------------------------
+OfflineLockException.java
+    Lines: 28
+NotASharedDatabaseException.java
+    Lines: 12
+InvalidDBMSConnectionPropertiesException.java
+    Lines: 13
+SharedEntryNotPresentException.java
+    Lines: 21
+Folder: ./src/main/java/org/jabref/logic/shared/exception
+--------------------------------------------------------
+ConnectionLostEvent.java
+    Lines: 22
+UpdateRefusedEvent.java
+    Lines: 37
+SharedEntryNotPresentEvent.java
+    Lines: 23
+Folder: ./src/main/java/org/jabref/logic/shared/event
+--------------------------------------------------------
+DefaultGroupsFactory.java
+    Lines: 20
+Folder: ./src/main/java/org/jabref/logic/groups
+--------------------------------------------------------
+XmpUtilShared.java
+    Lines: 60
+XmpPreferences.java
+    Lines: 29
+EncryptedPdfsNotSupportedException.java
+    Lines: 7
+XmpUtilWriter.java
+    Lines: 373
+DocumentInformationExtractor.java
+    Lines: 99
+XmpUtilReader.java
+    Lines: 157
+DublinCoreExtractor.java
+    Lines: 419
+Folder: ./src/main/java/org/jabref/logic/xmp
+--------------------------------------------------------
+UndoChangeEvent.java
+    Lines: 55
+UndoRedoEvent.java
+    Lines: 13
+AddUndoableActionEvent.java
+    Lines: 13
+Folder: ./src/main/java/org/jabref/logic/undo
+--------------------------------------------------------
+SearchQueryHighlightListener.java
+    Lines: 20
+DatabaseSearcher.java
+    Lines: 39
+SearchQuery.java
+    Lines: 125
+SearchQueryHighlightObservable.java
+    Lines: 86
+Folder: ./src/main/java/org/jabref/logic/search
+--------------------------------------------------------
+ExternalFilesContentImporter.java
+    Lines: 40
+Folder: ./src/main/java/org/jabref/logic/externalfiles
+--------------------------------------------------------
+AbbreviationWriter.java
+    Lines: 42
+JournalAbbreviationPreferences.java
+    Lines: 43
+JournalAbbreviationLoader.java
+    Lines: 106
+AbbreviationParser.java
+    Lines: 102
+Abbreviation.java
+    Lines: 93
+JournalAbbreviationRepository.java
+    Lines: 96
+Folder: ./src/main/java/org/jabref/logic/journals
+--------------------------------------------------------
+IdentityFormatter.java
+    Lines: 38
+Formatters.java
+    Lines: 100
+Folder: ./src/main/java/org/jabref/logic/formatter
+--------------------------------------------------------
+MinifyNameListFormatter.java
+    Lines: 80
+Folder: ./src/main/java/org/jabref/logic/formatter/minifier
+--------------------------------------------------------
+TitleCaseFormatter.java
+    Lines: 52
+LowerCaseFormatter.java
+    Lines: 39
+Title.java
+    Lines: 43
+Word.java
+    Lines: 101
+UpperCaseFormatter.java
+    Lines: 40
+ProtectTermsFormatter.java
+    Lines: 59
+CapitalizeFormatter.java
+    Lines: 40
+SentenceCaseFormatter.java
+    Lines: 40
+TitleParser.java
+    Lines: 79
+Folder: ./src/main/java/org/jabref/logic/formatter/casechanger
+--------------------------------------------------------
+LatexCleanupFormatter.java
+    Lines: 65
+NormalizeMonthFormatter.java
+    Lines: 38
+NormalizeNamesFormatter.java
+    Lines: 40
+NormalizeDateFormatter.java
+    Lines: 46
+CleanupURLFormatter.java
+    Lines: 66
+OrdinalsToSuperscriptFormatter.java
+    Lines: 64
+UnitsToLatexFormatter.java
+    Lines: 138
+ClearFormatter.java
+    Lines: 36
+RegexFormatter.java
+    Lines: 100
+NormalizePagesFormatter.java
+    Lines: 90
+RemoveBracesFormatter.java
+    Lines: 73
+RemoveNewlinesFormatter.java
+    Lines: 42
+UnicodeToLatexFormatter.java
+    Lines: 84
+AddBracesFormatter.java
+    Lines: 41
+HtmlToLatexFormatter.java
+    Lines: 138
+NormalizeEnDashesFormatter.java
+    Lines: 32
+RemoveHyphenatedNewlinesFormatter.java
+    Lines: 42
+EscapeUnderscoresFormatter.java
+    Lines: 39
+HtmlToUnicodeFormatter.java
+    Lines: 38
+Folder: ./src/main/java/org/jabref/logic/formatter/bibtexfields
+--------------------------------------------------------
+CleanupPreset.java
+    Lines: 106
+UpgradePdfPsToFileCleanup.java
+    Lines: 61
+FileLinksCleanup.java
+    Lines: 37
+RelativePathsCleanup.java
+    Lines: 61
+Cleanups.java
+    Lines: 132
+DoiCleanup.java
+    Lines: 79
+ConvertToBibtexCleanup.java
+    Lines: 52
+CleanupPreferences.java
+    Lines: 37
+MoveFilesCleanup.java
+    Lines: 135
+RenamePdfCleanup.java
+    Lines: 192
+ConvertToBiblatexCleanup.java
+    Lines: 45
+ISSNCleanup.java
+    Lines: 32
+MoveFieldCleanup.java
+    Lines: 32
+CleanupWorker.java
+    Lines: 86
+Folder: ./src/main/java/org/jabref/logic/cleanup
+--------------------------------------------------------
+FieldContentParser.java
+    Lines: 57
+FieldContentParserPreferences.java
+    Lines: 24
+BibEntryWriter.java
+    Lines: 200
+LatexFieldFormatter.java
+    Lines: 281
+DuplicateCheck.java
+    Lines: 349
+InvalidFieldValueException.java
+    Lines: 12
+LatexFieldFormatterPreferences.java
+    Lines: 41
+Folder: ./src/main/java/org/jabref/logic/bibtex
+--------------------------------------------------------
+EntryComparator.java
+    Lines: 134
+GroupDiff.java
+    Lines: 39
+PreambleDiff.java
+    Lines: 28
+FieldComparator.java
+    Lines: 158
+CrossRefEntryComparator.java
+    Lines: 31
+BibDatabaseDiff.java
+    Lines: 143
+MetaDataDiff.java
+    Lines: 32
+BibtexStringComparator.java
+    Lines: 67
+FieldComparatorStack.java
+    Lines: 30
+BibStringDiff.java
+    Lines: 89
+BibEntryDiff.java
+    Lines: 21
+IdComparator.java
+    Lines: 18
+Folder: ./src/main/java/org/jabref/logic/bibtex/comparator
+--------------------------------------------------------
+BackupManager.java
+    Lines: 177
+AutosaveManager.java
+    Lines: 100
+Folder: ./src/main/java/org/jabref/logic/autosaveandbackup
+--------------------------------------------------------
+PageNumbers.java
+    Lines: 60
+MSBibConverter.java
+    Lines: 132
+MSBibEntryType.java
+    Lines: 30
+MsBibAuthor.java
+    Lines: 66
+BibTeXConverter.java
+    Lines: 129
+MSBibMapping.java
+    Lines: 156
+MSBibDatabase.java
+    Lines: 135
+MSBibEntry.java
+    Lines: 371
+Folder: ./src/main/java/org/jabref/logic/msbib
+--------------------------------------------------------
+NoBibtexFieldChecker.java
+    Lines: 42
+BracesCorrector.java
+    Lines: 33
+HowPublishedChecker.java
+    Lines: 42
+TypeChecker.java
+    Lines: 28
+ISBNChecker.java
+    Lines: 30
+EditionChecker.java
+    Lines: 53
+HTMLCharacterChecker.java
+    Lines: 39
+ValidBibtexKeyChecker.java
+    Lines: 28
+EntryLinkChecker.java
+    Lines: 50
+YearChecker.java
+    Lines: 40
+DateChecker.java
+    Lines: 24
+NoteChecker.java
+    Lines: 42
+AbbreviationChecker.java
+    Lines: 29
+JournalInAbbreviationListChecker.java
+    Lines: 38
+BooktitleChecker.java
+    Lines: 23
+IntegrityCheck.java
+    Lines: 81
+BibtexKeyDuplicationChecker.java
+    Lines: 30
+TitleChecker.java
+    Lines: 60
+BibtexKeyChecker.java
+    Lines: 35
+BibStringChecker.java
+    Lines: 45
+FieldCheckers.java
+    Lines: 75
+DOIValidityChecker.java
+    Lines: 23
+PagesChecker.java
+    Lines: 66
+BibTeXEntryTypeChecker.java
+    Lines: 28
+ISSNChecker.java
+    Lines: 31
+FieldChecker.java
+    Lines: 29
+MonthChecker.java
+    Lines: 54
+BracketChecker.java
+    Lines: 36
+ASCIICharacterChecker.java
+    Lines: 30
+BibtexkeyDeviationChecker.java
+    Lines: 45
+IntegrityMessage.java
+    Lines: 57
+FileChecker.java
+    Lines: 46
+UrlChecker.java
+    Lines: 22
+ValueChecker.java
+    Lines: 11
+PersonNamesChecker.java
+    Lines: 47
+Folder: ./src/main/java/org/jabref/logic/integrity
+--------------------------------------------------------
+XmpPdfExporter.java
+    Lines: 36
+ExporterFactory.java
+    Lines: 112
+VerifyingWriter.java
+    Lines: 52
+ModsExporter.java
+    Lines: 442
+OpenDocumentRepresentation.java
+    Lines: 209
+SavePreferences.java
+    Lines: 118
+MSBibExporter.java
+    Lines: 60
+OOCalcDatabase.java
+    Lines: 203
+OpenDocumentSpreadsheetCreator.java
+    Lines: 152
+BibTeXMLExporter.java
+    Lines: 247
+SaveException.java
+    Lines: 83
+XmpExporter.java
+    Lines: 74
+StringSaveSession.java
+    Lines: 54
+GroupSerializer.java
+    Lines: 181
+MetaDataSerializer.java
+    Lines: 128
+SaveSession.java
+    Lines: 68
+TemplateExporter.java
+    Lines: 350
+BibDatabaseWriter.java
+    Lines: 324
+OpenOfficeDocumentCreator.java
+    Lines: 134
+FileSaveSession.java
+    Lines: 129
+Exporter.java
+    Lines: 59
+BibtexDatabaseWriter.java
+    Lines: 176
+Folder: ./src/main/java/org/jabref/logic/exporter
+--------------------------------------------------------
+CitationStyleOutputFormat.java
+    Lines: 34
+CSLAdapter.java
+    Lines: 130
+CitationStyle.java
+    Lines: 216
+CitationStyleCache.java
+    Lines: 79
+CitationStyleGenerator.java
+    Lines: 76
+Folder: ./src/main/java/org/jabref/logic/citationstyle
+--------------------------------------------------------
+LogMessages.java
+    Lines: 41
+JabRefLogger.java
+    Lines: 30
+Folder: ./src/main/java/org/jabref/logic/logging
+--------------------------------------------------------
+HelpFile.java
+    Lines: 76
+Folder: ./src/main/java/org/jabref/logic/help
+--------------------------------------------------------
+OpenOfficePreferences.java
+    Lines: 156
+OOUtil.java
+    Lines: 283
+StyleLoader.java
+    Lines: 144
+OOPreFormatter.java
+    Lines: 225
+UndefinedBibtexEntry.java
+    Lines: 23
+OOBibStyle.java
+    Lines: 919
+CitationEntry.java
+    Lines: 79
+UndefinedParagraphFormatException.java
+    Lines: 20
+OpenOfficeFileSearch.java
+    Lines: 80
+Folder: ./src/main/java/org/jabref/logic/openoffice
+--------------------------------------------------------
+DefaultAuxParser.java
+    Lines: 175
+Folder: ./src/main/java/org/jabref/logic/auxparser
+--------------------------------------------------------
+RemotePreferences.java
+    Lines: 47
+RemoteUtil.java
+    Lines: 11
+Folder: ./src/main/java/org/jabref/logic/remote
+--------------------------------------------------------
+RemoteListenerServer.java
+    Lines: 81
+MessageHandler.java
+    Lines: 8
+RemoteListenerServerLifecycle.java
+    Lines: 78
+RemoteListenerServerThread.java
+    Lines: 35
+Folder: ./src/main/java/org/jabref/logic/remote/server
+--------------------------------------------------------
+Protocol.java
+    Lines: 84
+RemoteMessage.java
+    Lines: 20
+Folder: ./src/main/java/org/jabref/logic/remote/shared
+--------------------------------------------------------
+RemoteClient.java
+    Lines: 68
+Folder: ./src/main/java/org/jabref/logic/remote/client
+--------------------------------------------------------
+BibtexTextPrefix.java
+    Lines: 78
+Warn.java
+    Lines: 7
+BibtexNameFormatter.java
+    Lines: 324
+VMException.java
+    Lines: 9
+ChangeCaseFunction.java
+    Lines: 67
+BibtexWidth.java
+    Lines: 250
+FormatNameFunction.java
+    Lines: 68
+BibtexCaseChanger.java
+    Lines: 306
+VM.java
+    Lines: 1241
+PurifyFunction.java
+    Lines: 44
+WidthFunction.java
+    Lines: 44
+TextPrefixFunction.java
+    Lines: 56
+BibtexPurify.java
+    Lines: 82
+Folder: ./src/main/java/org/jabref/logic/bst
+--------------------------------------------------------
+StyleTesterMain.java
+    Lines: 41
+StyleTesterView.java
+    Lines: 50
+Folder: ./src/main/java/org/jabref/styletester
+--------------------------------------------------------
+JabRefCLI.java
+    Lines: 279
+GenerateCharacterTable.java
+    Lines: 52
+SystemOutputPrinter.java
+    Lines: 21
+AuxCommandLine.java
+    Lines: 33
+CrossrefFetcherEvaluator.java
+    Lines: 103
+ArgumentProcessor.java
+    Lines: 597
+Folder: ./src/main/java/org/jabref/cli
+--------------------------------------------------------
+ApacheCommonsLang3Allowed.java
+    Lines: 12
+Folder: ./src/main/java/org/jabref/architecture
+--------------------------------------------------------
+GUIGlobals.java
+    Lines: 73
+SidePaneComponent.java
+    Lines: 158
+ClipBoardManager.java
+    Lines: 128
+FXDialogService.java
+    Lines: 296
+WaitForSaveOperation.java
+    Lines: 82
+AbstractViewModel.java
+    Lines: 5
+ReplaceStringAction.java
+    Lines: 18
+JEditorPaneWithHighlighting.java
+    Lines: 57
+JabRefFrame.java
+    Lines: 1521
+SidePaneType.java
+    Lines: 8
+DuplicateResolverDialog.java
+    Lines: 147
+BasePanelPreferences.java
+    Lines: 80
+DialogService.java
+    Lines: 248
+BasePanel.java
+    Lines: 1676
+SidePaneManager.java
+    Lines: 196
+SidePane.java
+    Lines: 32
+BasePanelMode.java
+    Lines: 12
+DuplicateSearch.java
+    Lines: 220
+EntryTypeDialog.java
+    Lines: 366
+MergeDialog.java
+    Lines: 117
+PreambleEditor.java
+    Lines: 56
+GenFieldsCustomizer.java
+    Lines: 175
+Dialog.java
+    Lines: 7
+PreviewPanel.java
+    Lines: 353
+OSXCompatibleToolbar.java
+    Lines: 39
+StringDialog.java
+    Lines: 455
+DragAndDropDataFormats.java
+    Lines: 19
+StateManager.java
+    Lines: 97
+EntryContainer.java
+    Lines: 12
+JabRefDialog.java
+    Lines: 54
+GlobalFocusListener.java
+    Lines: 31
+SaveOrderConfigDisplay.java
+    Lines: 113
+ReplaceStringViewModel.java
+    Lines: 118
+ReplaceStringView.java
+    Lines: 65
+FXDialog.java
+    Lines: 82
+WrapLayout.java
+    Lines: 175
+UpdateTimestampListener.java
+    Lines: 25
+FindUnlinkedFilesDialog.java
+    Lines: 1226
+DefaultInjector.java
+    Lines: 72
+Folder: ./src/main/java/org/jabref/gui
+--------------------------------------------------------
+BibtexKeyPatternPanel.java
+    Lines: 169
+ResolveDuplicateLabelDialog.java
+    Lines: 139
+SearchFixDuplicateLabels.java
+    Lines: 108
+BibtexKeyPatternDialog.java
+    Lines: 42
+Folder: ./src/main/java/org/jabref/gui/bibtexkeypattern
+--------------------------------------------------------
+GeneralRenderer.java
+    Lines: 93
+Folder: ./src/main/java/org/jabref/gui/renderer
+--------------------------------------------------------
+NetworkTab.java
+    Lines: 172
+TablePrefsTab.java
+    Lines: 253
+ImportSettingsTab.java
+    Lines: 143
+GroupsPrefsTab.java
+    Lines: 110
+FileTab.java
+    Lines: 255
+AdvancedTab.java
+    Lines: 190
+EntryEditorPrefsTab.java
+    Lines: 230
+AppearancePrefsTab.java
+    Lines: 90
+TableColumnsTab.java
+    Lines: 628
+XmpPrefsTab.java
+    Lines: 177
+BibtexKeyPatternPrefTab.java
+    Lines: 144
+PreviewPrefsTab.java
+    Lines: 285
+PreferencesFilterDialog.java
+    Lines: 125
+ExportSortingPrefsTab.java
+    Lines: 103
+GeneralTab.java
+    Lines: 236
+NameFormatterTab.java
+    Lines: 221
+PrefsTab.java
+    Lines: 46
+ExternalTab.java
+    Lines: 239
+PreferencesDialog.java
+    Lines: 251
+Folder: ./src/main/java/org/jabref/gui/preferences
+--------------------------------------------------------
+PersonsEditorViewModel.java
+    Lines: 38
+ContextMenuAddable.java
+    Lines: 15
+MonthEditorViewModel.java
+    Lines: 58
+LinkedEntriesEditor.java
+    Lines: 50
+FieldEditorFX.java
+    Lines: 35
+OptionEditorViewModel.java
+    Lines: 21
+GenderEditorViewModel.java
+    Lines: 35
+LinkedFileViewModel.java
+    Lines: 420
+UrlEditorViewModel.java
+    Lines: 50
+FieldNameLabel.java
+    Lines: 20
+PaginationEditorViewModel.java
+    Lines: 35
+MultilineEditor.java
+    Lines: 17
+IdentifierEditor.java
+    Lines: 84
+SimpleEditorViewModel.java
+    Lines: 17
+MapBasedEditorViewModel.java
+    Lines: 72
+OwnerEditorViewModel.java
+    Lines: 18
+BibtexKeyEditor.java
+    Lines: 61
+EditorTextArea.java
+    Lines: 103
+FieldEditor.java
+    Lines: 72
+OptionEditor.java
+    Lines: 47
+PersonsEditor.java
+    Lines: 57
+BibtexKeyEditorViewModel.java
+    Lines: 31
+TextField.java
+    Lines: 183
+SimpleEditor.java
+    Lines: 62
+YesNoEditorViewModel.java
+    Lines: 29
+TypeEditorViewModel.java
+    Lines: 36
+LinkedFilesEditorViewModel.java
+    Lines: 227
+KeywordsEditor.java
+    Lines: 17
+OwnerEditor.java
+    Lines: 50
+UrlEditor.java
+    Lines: 64
+LinkedFilesEditor.java
+    Lines: 298
+JournalEditor.java
+    Lines: 55
+JTextAreaWithHighlighting.java
+    Lines: 173
+PatentTypeEditorViewModel.java
+    Lines: 40
+EditorTypeEditorViewModel.java
+    Lines: 35
+DateEditor.java
+    Lines: 45
+EditorTextField.java
+    Lines: 65
+EditorValidator.java
+    Lines: 26
+LinkedEntriesEditorViewModel.java
+    Lines: 79
+JournalEditorViewModel.java
+    Lines: 34
+FieldEditorFocusListener.java
+    Lines: 29
+AbstractEditorViewModel.java
+    Lines: 76
+FieldEditors.java
+    Lines: 117
+IdentifierEditorViewModel.java
+    Lines: 110
+DateEditorViewModel.java
+    Lines: 49
+Folder: ./src/main/java/org/jabref/gui/fieldeditors
+--------------------------------------------------------
+ProtectedTermsMenu.java
+    Lines: 85
+CaseChangeMenu.java
+    Lines: 38
+ClearField.java
+    Lines: 14
+EditorMenus.java
+    Lines: 106
+ConversionMenu.java
+    Lines: 30
+Folder: ./src/main/java/org/jabref/gui/fieldeditors/contextmenu
+--------------------------------------------------------
+EntryFromExternalFileCreator.java
+    Lines: 36
+ZipFileChooser.java
+    Lines: 241
+ImportInspectionDialog.java
+    Lines: 1414
+ParserResultWarningDialog.java
+    Lines: 87
+ImportAction.java
+    Lines: 194
+ImportCustomizationDialog.java
+    Lines: 320
+EntryFromPDFCreator.java
+    Lines: 62
+EntryFromFileCreatorManager.java
+    Lines: 222
+UnlinkedFilesCrawler.java
+    Lines: 104
+EntryFromFileCreator.java
+    Lines: 186
+ImportCommand.java
+    Lines: 66
+UnlinkedPDFFileFilter.java
+    Lines: 36
+Folder: ./src/main/java/org/jabref/gui/importer
+--------------------------------------------------------
+WebSearchPane.java
+    Lines: 107
+WebSearchPaneViewModel.java
+    Lines: 117
+Folder: ./src/main/java/org/jabref/gui/importer/fetcher
+--------------------------------------------------------
+AppendDatabaseAction.java
+    Lines: 194
+MergeReviewIntoCommentAction.java
+    Lines: 27
+CheckForNewEntryTypesAction.java
+    Lines: 135
+GUIPostOpenAction.java
+    Lines: 37
+HandleDuplicateWarnings.java
+    Lines: 31
+OpenDatabaseAction.java
+    Lines: 290
+MergeReviewIntoCommentConfirmationDialog.java
+    Lines: 39
+Folder: ./src/main/java/org/jabref/gui/importer/actions
+--------------------------------------------------------
+SpecialFieldDropDown.java
+    Lines: 98
+SpecialFieldValueViewModel.java
+    Lines: 164
+SpecialFieldViewModel.java
+    Lines: 95
+SpecialFieldAction.java
+    Lines: 105
+SpecialFieldMenuItemFactory.java
+    Lines: 47
+SpecialFieldUpdateListener.java
+    Lines: 54
+SpecialFieldDatabaseChangeListener.java
+    Lines: 31
+Folder: ./src/main/java/org/jabref/gui/specialfields
+--------------------------------------------------------
+ValueTableCellFactory.java
+    Lines: 143
+ColorUtil.java
+    Lines: 32
+OnlyIntegerFormatter.java
+    Lines: 32
+ViewModelListCellFactory.java
+    Lines: 177
+ControlHelper.java
+    Lines: 60
+ViewModelTableRowFactory.java
+    Lines: 176
+TooltipTextUtil.java
+    Lines: 109
+IconValidationDecorator.java
+    Lines: 62
+CurrentThreadTaskExecutor.java
+    Lines: 86
+TaskExecutor.java
+    Lines: 27
+OptionalValueTableCellFactory.java
+    Lines: 41
+ThemeLoader.java
+    Lines: 97
+FileDialogConfiguration.java
+    Lines: 145
+ViewModelTreeTableCellFactory.java
+    Lines: 87
+RecursiveTreeItem.java
+    Lines: 102
+FileFilterConverter.java
+    Lines: 60
+DefaultFileUpdateMonitor.java
+    Lines: 86
+DefaultTaskExecutor.java
+    Lines: 135
+WindowLocation.java
+    Lines: 163
+BindingsHelper.java
+    Lines: 307
+CustomLocalDragboard.java
+    Lines: 66
+OpenHyperlinksInExternalBrowser.java
+    Lines: 65
+BackgroundTask.java
+    Lines: 226
+DirectoryDialogConfiguration.java
+    Lines: 51
+MappedList.java
+    Lines: 90
+BaseDialog.java
+    Lines: 31
+Folder: ./src/main/java/org/jabref/gui/util
+--------------------------------------------------------
+RankingFieldComparator.java
+    Lines: 37
+IconComparator.java
+    Lines: 50
+Folder: ./src/main/java/org/jabref/gui/util/comparator
+--------------------------------------------------------
+JTextAreaWithPlaceholder.java
+    Lines: 90
+Tag.java
+    Lines: 65
+TagBar.java
+    Lines: 100
+DiffHighlightingTextPane.java
+    Lines: 28
+TemporalAccessorPicker.java
+    Lines: 136
+OverlayPanel.java
+    Lines: 55
+JTextFieldWithPlaceholder.java
+    Lines: 91
+CheckBoxMessage.java
+    Lines: 37
+Folder: ./src/main/java/org/jabref/gui/util/component
+--------------------------------------------------------
+MainTableNameFormatter.java
+    Lines: 44
+RightClickMenu.java
+    Lines: 186
+NormalTableColumn.java
+    Lines: 154
+CellFactory.java
+    Lines: 112
+SmartConstrainedResizePolicy.java
+    Lines: 97
+ColumnPreferences.java
+    Lines: 62
+MainTableColumn.java
+    Lines: 15
+MainTableColumnFactory.java
+    Lines: 393
+MainTableDataModel.java
+    Lines: 78
+BibEntryTableViewModel.java
+    Lines: 69
+MainTable.java
+    Lines: 445
+ListSynchronizer.java
+    Lines: 62
+MainTablePreferences.java
+    Lines: 20
+PersistenceVisualStateTable.java
+    Lines: 58
+Folder: ./src/main/java/org/jabref/gui/maintable
+--------------------------------------------------------
+DocumentViewModel.java
+    Lines: 19
+DocumentViewerControl.java
+    Lines: 228
+DocumentPageViewModel.java
+    Lines: 26
+PdfDocumentPageViewModel.java
+    Lines: 68
+PageDimension.java
+    Lines: 60
+DocumentViewerViewModel.java
+    Lines: 131
+DocumentViewerView.java
+    Lines: 129
+PdfDocumentViewModel.java
+    Lines: 33
+Folder: ./src/main/java/org/jabref/gui/documentviewer
+--------------------------------------------------------
+ProtectedTermsDialog.java
+    Lines: 489
+NewProtectedTermsFileDialog.java
+    Lines: 123
+Folder: ./src/main/java/org/jabref/gui/protectedterms
+--------------------------------------------------------
+AuxParserResultViewModel.java
+    Lines: 38
+FromAuxDialog.java
+    Lines: 237
+Folder: ./src/main/java/org/jabref/gui/auximport
+--------------------------------------------------------
+JabRefDesktop.java
+    Lines: 271
+Folder: ./src/main/java/org/jabref/gui/desktop
+--------------------------------------------------------
+DefaultDesktop.java
+    Lines: 50
+OSX.java
+    Lines: 59
+NativeDesktop.java
+    Lines: 49
+Windows.java
+    Lines: 88
+Linux.java
+    Lines: 118
+Folder: ./src/main/java/org/jabref/gui/desktop/os
+--------------------------------------------------------
+SharedDatabaseUIManager.java
+    Lines: 148
+MergeSharedEntryDialog.java
+    Lines: 113
+ConnectToSharedDatabaseDialog.java
+    Lines: 488
+MigrationHelpDialog.java
+    Lines: 79
+Folder: ./src/main/java/org/jabref/gui/shared
+--------------------------------------------------------
+UndoableMoveGroup.java
+    Lines: 56
+MoveGroupChange.java
+    Lines: 41
+GroupTreeView.java
+    Lines: 394
+UndoableAddOrRemoveGroup.java
+    Lines: 140
+GroupTreeNodeViewModel.java
+    Lines: 312
+GroupDescriptions.java
+    Lines: 122
+GroupAddRemoveDialog.java
+    Lines: 224
+GroupModeViewModel.java
+    Lines: 36
+UndoableModifySubtree.java
+    Lines: 65
+UndoableChangeEntriesOfGroup.java
+    Lines: 30
+GroupDialog.java
+    Lines: 700
+GroupViewMode.java
+    Lines: 8
+GroupSidePane.java
+    Lines: 95
+GroupTreeCellRenderer.java
+    Lines: 114
+GroupNodeViewModel.java
+    Lines: 326
+DroppingMouseLocation.java
+    Lines: 10
+WarnAssignmentSideEffects.java
+    Lines: 98
+GroupTreeViewModel.java
+    Lines: 320
+Folder: ./src/main/java/org/jabref/gui/groups
+--------------------------------------------------------
+AppendPersonNamesStrategy.java
+    Lines: 27
+SuggestionProviders.java
+    Lines: 71
+AutoCompleteSuggestionProvider.java
+    Lines: 13
+ContentSelectorSuggestionProvider.java
+    Lines: 40
+SuggestionProvider.java
+    Lines: 199
+WordSuggestionProvider.java
+    Lines: 34
+AutoCompletionInput.java
+    Lines: 19
+AppendWordsStrategy.java
+    Lines: 26
+PersonNameStringConverter.java
+    Lines: 69
+PersonNameSuggestionProvider.java
+    Lines: 60
+AutoCompletePreferences.java
+    Lines: 86
+AutoCompletionStrategy.java
+    Lines: 6
+AutoCompleteFirstNameMode.java
+    Lines: 21
+AutoCompleteUpdater.java
+    Lines: 28
+AutoCompletionTextInputBinding.java
+    Lines: 166
+StringSuggestionProvider.java
+    Lines: 26
+BibEntrySuggestionProvider.java
+    Lines: 36
+JournalsSuggestionProvider.java
+    Lines: 24
+ReplaceStrategy.java
+    Lines: 9
+FieldValueSuggestionProvider.java
+    Lines: 26
+Folder: ./src/main/java/org/jabref/gui/autocompleter
+--------------------------------------------------------
+ErrorConsoleViewModel.java
+    Lines: 124
+LogEventViewModel.java
+    Lines: 56
+ErrorConsoleView.java
+    Lines: 137
+Folder: ./src/main/java/org/jabref/gui/errorconsole
+--------------------------------------------------------
+UndoableRemoveEntry.java
+    Lines: 60
+UndoableInsertEntry.java
+    Lines: 52
+AbstractUndoableJabRefEdit.java
+    Lines: 19
+CountingUndoManager.java
+    Lines: 72
+UndoableKeyChange.java
+    Lines: 48
+UndoablePreambleChange.java
+    Lines: 48
+UndoableFieldChange.java
+    Lines: 80
+UndoableInsertString.java
+    Lines: 57
+UndoableRemoveString.java
+    Lines: 57
+UndoableStringChange.java
+    Lines: 67
+NamedCompound.java
+    Lines: 47
+UndoableChangeType.java
+    Lines: 45
+Folder: ./src/main/java/org/jabref/gui/undo
+--------------------------------------------------------
+CopyFilesResultListDependency.java
+    Lines: 31
+CopyFilesResultItemViewModel.java
+    Lines: 42
+CopyFilesTask.java
+    Lines: 128
+CopyFilesDialogViewModel.java
+    Lines: 21
+CopyFilesDialogView.java
+    Lines: 65
+Folder: ./src/main/java/org/jabref/gui/copyfiles
+--------------------------------------------------------
+HitOrMissComparator.java
+    Lines: 30
+SearchResultFrame.java
+    Lines: 649
+GlobalSearchWorker.java
+    Lines: 68
+SearchWorker.java
+    Lines: 73
+SearchTextField.java
+    Lines: 18
+GlobalSearchBar.java
+    Lines: 497
+SearchDisplayMode.java
+    Lines: 34
+Folder: ./src/main/java/org/jabref/gui/search
+--------------------------------------------------------
+SearchDescriber.java
+    Lines: 10
+SearchDescribers.java
+    Lines: 37
+ContainsAndRegexBasedSearchRuleDescriber.java
+    Lines: 60
+GrammarBasedSearchRuleDescriber.java
+    Lines: 129
+Folder: ./src/main/java/org/jabref/gui/search/rules/describer
+--------------------------------------------------------
+SearchMatcher.java
+    Lines: 19
+EverythingMatcher.java
+    Lines: 19
+Folder: ./src/main/java/org/jabref/gui/search/matchers
+--------------------------------------------------------
+DownloadExternalFile.java
+    Lines: 345
+TransferableFileLinkSelection.java
+    Lines: 103
+ExternalFilesEntryLinker.java
+    Lines: 73
+FileDownloadTask.java
+    Lines: 40
+AutoSetFileLinksUtil.java
+    Lines: 79
+NewDroppedFileHandler.java
+    Lines: 154
+AutoSetLinks.java
+    Lines: 172
+DroppedFileHandler.java
+    Lines: 568
+FindFullTextAction.java
+    Lines: 140
+Folder: ./src/main/java/org/jabref/gui/externalfiles
+--------------------------------------------------------
+PushToApplicationSettingsDialog.java
+    Lines: 61
+PushToVimSettings.java
+    Lines: 34
+PushToEmacsSettings.java
+    Lines: 42
+PushToLyxSettings.java
+    Lines: 17
+PushToApplication.java
+    Lines: 47
+PushToTexmaker.java
+    Lines: 37
+PushToApplications.java
+    Lines: 39
+PushToTeXstudio.java
+    Lines: 33
+PushToVim.java
+    Lines: 111
+PushToApplicationButton.java
+    Lines: 90
+PushToWinEdt.java
+    Lines: 34
+PushToEmacs.java
+    Lines: 136
+AbstractPushToApplication.java
+    Lines: 147
+PushToApplicationAction.java
+    Lines: 98
+PushToLyx.java
+    Lines: 107
+PushToApplicationSettings.java
+    Lines: 132
+Folder: ./src/main/java/org/jabref/gui/push
+--------------------------------------------------------
+AbbreviateAction.java
+    Lines: 92
+AbbreviationViewModel.java
+    Lines: 85
+UndoableAbbreviator.java
+    Lines: 64
+UnabbreviateAction.java
+    Lines: 58
+ManageJournalAbbreviationsViewModel.java
+    Lines: 406
+ManageJournalAbbreviationsView.java
+    Lines: 365
+UndoableUnabbreviator.java
+    Lines: 53
+JournalAbbreviationsUtil.java
+    Lines: 34
+AbbreviationsFileViewModel.java
+    Lines: 112
+Folder: ./src/main/java/org/jabref/gui/journals
+--------------------------------------------------------
+FetchAndMergeWorker.java
+    Lines: 76
+FetchAndMergeEntry.java
+    Lines: 52
+MergeEntriesDialog.java
+    Lines: 120
+MergeWithFetchedEntryAction.java
+    Lines: 34
+MergeFetchedEntryDialog.java
+    Lines: 167
+EntryFetchAndMergeWorker.java
+    Lines: 64
+MergeEntries.java
+    Lines: 454
+Folder: ./src/main/java/org/jabref/gui/mergeentries
+--------------------------------------------------------
+ExternalFileTypeEditor.java
+    Lines: 321
+ExternalFileTypes.java
+    Lines: 274
+UnknownExternalFileType.java
+    Lines: 50
+CustomExternalFileType.java
+    Lines: 205
+StandardExternalFileType.java
+    Lines: 75
+ExternalFileMenuItem.java
+    Lines: 104
+ExternalFileType.java
+    Lines: 25
+ExternalFileTypeEntryEditor.java
+    Lines: 239
+Folder: ./src/main/java/org/jabref/gui/externalfiletype
+--------------------------------------------------------
+CleanupDialog.java
+    Lines: 34
+FieldFormatterCleanupsPanel.java
+    Lines: 333
+CleanupPresetPanel.java
+    Lines: 171
+CleanupActionsListModel.java
+    Lines: 81
+Folder: ./src/main/java/org/jabref/gui/cleanup
+--------------------------------------------------------
+GroupChangeViewModel.java
+    Lines: 76
+EntryDeleteChangeViewModel.java
+    Lines: 65
+StringNameChangeViewModel.java
+    Lines: 78
+PreambleChangeViewModel.java
+    Lines: 54
+StringAddChangeViewModel.java
+    Lines: 63
+StringRemoveChangeViewModel.java
+    Lines: 55
+InfoPane.java
+    Lines: 23
+DatabaseChangeMonitor.java
+    Lines: 160
+ChangeViewModel.java
+    Lines: 67
+FileUpdatePanel.java
+    Lines: 129
+ChangeDisplayDialog.java
+    Lines: 145
+ChangeScanner.java
+    Lines: 182
+MetaDataChangeViewModel.java
+    Lines: 45
+StringChangeViewModel.java
+    Lines: 88
+EntryAddChangeViewModel.java
+    Lines: 49
+EntryChangeViewModel.java
+    Lines: 161
+Folder: ./src/main/java/org/jabref/gui/collab
+--------------------------------------------------------
+ContentSelectorDialog.java
+    Lines: 499
+Folder: ./src/main/java/org/jabref/gui/contentselector
+--------------------------------------------------------
+NewDatabaseAction.java
+    Lines: 29
+JabRefAction.java
+    Lines: 40
+CopyFilesAction.java
+    Lines: 71
+NewEntryAction.java
+    Lines: 68
+SearchForUpdateAction.java
+    Lines: 11
+Actions.java
+    Lines: 76
+ChangeTypeAction.java
+    Lines: 52
+MassSetFieldAction.java
+    Lines: 366
+IntegrityCheckAction.java
+    Lines: 202
+ActionFactory.java
+    Lines: 91
+BibtexKeyPatternAction.java
+    Lines: 18
+ManageJournalsAction.java
+    Lines: 12
+BaseAction.java
+    Lines: 12
+CustomizeKeyBindingAction.java
+    Lines: 12
+MnemonicAwareAction.java
+    Lines: 44
+SimpleCommand.java
+    Lines: 26
+ShowPreferencesAction.java
+    Lines: 18
+FindUnlinkedFilesAction.java
+    Lines: 20
+ErrorConsoleAction.java
+    Lines: 19
+ManageProtectedTermsAction.java
+    Lines: 23
+GenerateBibtexKeySingleAction.java
+    Lines: 41
+OldCommandWrapper.java
+    Lines: 50
+NewEntryFromPlainTextAction.java
+    Lines: 49
+ManageCustomImportsAction.java
+    Lines: 21
+StandardActions.java
+    Lines: 233
+EditExternalFileTypesAction.java
+    Lines: 12
+CopyBibTeXKeyAndLinkAction.java
+    Lines: 63
+ManageCustomExportsAction.java
+    Lines: 20
+CopyDoiUrlAction.java
+    Lines: 45
+DatabasePropertiesAction.java
+    Lines: 21
+OldDatabaseCommandWrapper.java
+    Lines: 55
+ConnectToSharedDatabaseCommand.java
+    Lines: 22
+CustomizeEntryAction.java
+    Lines: 21
+OldCommandWrapperForActiveDatabase.java
+    Lines: 48
+CleanupAction.java
+    Lines: 148
+WriteXMPAction.java
+    Lines: 264
+Action.java
+    Lines: 16
+LookupIdentifierAction.java
+    Lines: 112
+GenerateBibtexKeyAction.java
+    Lines: 100
+SetupGeneralFieldsAction.java
+    Lines: 21
+ManageKeywordsAction.java
+    Lines: 356
+AutoLinkFilesAction.java
+    Lines: 52
+OpenBrowserAction.java
+    Lines: 19
+ShowDocumentViewerAction.java
+    Lines: 12
+MergeEntriesAction.java
+    Lines: 20
+NewSubLibraryAction.java
+    Lines: 42
+Folder: ./src/main/java/org/jabref/gui/actions
+--------------------------------------------------------
+ChangeEntryTypeMenu.java
+    Lines: 155
+FileHistoryMenu.java
+    Lines: 84
+Folder: ./src/main/java/org/jabref/gui/menus
+--------------------------------------------------------
+LinkedFileEditDialogView.java
+    Lines: 71
+FileListTableModel.java
+    Lines: 187
+FileListEntry.java
+    Lines: 76
+FileListEntryEditor.java
+    Lines: 386
+LinkedFilesEditDialogViewModel.java
+    Lines: 134
+ConfirmCloseFileListEntryEditor.java
+    Lines: 14
+AttachFileAction.java
+    Lines: 56
+Folder: ./src/main/java/org/jabref/gui/filelist
+--------------------------------------------------------
+AutosaveUIManager.java
+    Lines: 33
+BackupUIManager.java
+    Lines: 38
+Folder: ./src/main/java/org/jabref/gui/dialogs
+--------------------------------------------------------
+SaveAllAction.java
+    Lines: 42
+ExportCustomizationDialog.java
+    Lines: 175
+ExportToClipboardAction.java
+    Lines: 119
+ExportCommand.java
+    Lines: 121
+SaveDatabaseAction.java
+    Lines: 459
+CustomExportDialog.java
+    Lines: 205
+Folder: ./src/main/java/org/jabref/gui/exporter
+--------------------------------------------------------
+TagToMarkedTextStore.java
+    Lines: 81
+TextInputDialog.java
+    Lines: 735
+Folder: ./src/main/java/org/jabref/gui/plaintextimport
+--------------------------------------------------------
+JabRefMaterialDesignIcon.java
+    Lines: 49
+InternalMaterialDesignIcon.java
+    Lines: 96
+JabRefIconView.java
+    Lines: 49
+JabRefIcon.java
+    Lines: 22
+IconTheme.java
+    Lines: 436
+Folder: ./src/main/java/org/jabref/gui/icon
+--------------------------------------------------------
+CitationStyleToClipboardWorker.java
+    Lines: 196
+VersionWorker.java
+    Lines: 119
+CallBack.java
+    Lines: 11
+SendAsEMailAction.java
+    Lines: 120
+Folder: ./src/main/java/org/jabref/gui/worker
+--------------------------------------------------------
+FieldSetComponent.java
+    Lines: 352
+CustomEntryTypesManager.java
+    Lines: 35
+EntryTypeCustomizationDialog.java
+    Lines: 424
+EntryTypeList.java
+    Lines: 139
+Folder: ./src/main/java/org/jabref/gui/customentrytypes
+--------------------------------------------------------
+GuiAppender.java
+    Lines: 49
+ApplicationInsightsAppender.java
+    Lines: 54
+Folder: ./src/main/java/org/jabref/gui/logging
+--------------------------------------------------------
+CustomJFXPanel.java
+    Lines: 21
+Folder: ./src/main/java/org/jabref/gui/customjfx
+--------------------------------------------------------
+DatabasePropertiesDialog.java
+    Lines: 330
+Folder: ./src/main/java/org/jabref/gui/dbproperties
+--------------------------------------------------------
+KeyBindingCategory.java
+    Lines: 26
+KeyBinding.java
+    Lines: 127
+KeyBindingsDialogView.java
+    Lines: 89
+KeyBindingsDialogViewModel.java
+    Lines: 94
+KeyBinder.java
+    Lines: 29
+KeyBindingViewModel.java
+    Lines: 141
+EmacsKeyBindings.java
+    Lines: 790
+KeyBindingRepository.java
+    Lines: 216
+Folder: ./src/main/java/org/jabref/gui/keyboard
+--------------------------------------------------------
+HelpAction.java
+    Lines: 130
+AboutDialogView.java
+    Lines: 85
+AboutAction.java
+    Lines: 11
+NewVersionDialog.java
+    Lines: 92
+AboutDialogViewModel.java
+    Lines: 159
+Folder: ./src/main/java/org/jabref/gui/help
+--------------------------------------------------------
+SourceTab.java
+    Lines: 195
+EntryEditorTabList.java
+    Lines: 44
+OptionalFieldsTab.java
+    Lines: 30
+UserDefinedFieldsTab.java
+    Lines: 30
+DeprecatedFieldsTab.java
+    Lines: 30
+OptionalFields2Tab.java
+    Lines: 30
+EntryEditorPreferences.java
+    Lines: 78
+RequiredFieldsTab.java
+    Lines: 38
+OtherFieldsTab.java
+    Lines: 44
+MathSciNetTab.java
+    Lines: 58
+FieldsEditorTab.java
+    Lines: 241
+RelatedArticlesTab.java
+    Lines: 91
+EntryEditor.java
+    Lines: 317
+EntryEditorTab.java
+    Lines: 46
+Folder: ./src/main/java/org/jabref/gui/entryeditor
+--------------------------------------------------------
+FileAnnotationTabView.java
+    Lines: 128
+FileAnnotationTabViewModel.java
+    Lines: 131
+FileAnnotationViewModel.java
+    Lines: 113
+FileAnnotationTab.java
+    Lines: 37
+Folder: ./src/main/java/org/jabref/gui/entryeditor/fileannotationtab
+--------------------------------------------------------
+CreationException.java
+    Lines: 13
+BibEntryNotFoundException.java
+    Lines: 17
+OOBibBase.java
+    Lines: 1380
+CitationManager.java
+    Lines: 237
+OpenOfficePanel.java
+    Lines: 762
+DetectOpenOfficeInstallation.java
+    Lines: 162
+StyleSelectDialog.java
+    Lines: 538
+NoDocumentException.java
+    Lines: 13
+ConnectionLostException.java
+    Lines: 11
+UndefinedCharacterFormatException.java
+    Lines: 20
+OpenOfficeSidePanel.java
+    Lines: 60
+AdvancedCiteDialog.java
+    Lines: 113
+Folder: ./src/main/java/org/jabref/gui/openoffice
+--------------------------------------------------------
+JabRefMessageHandler.java
+    Lines: 26
+Folder: ./src/main/java/org/jabref/gui/remote
+--------------------------------------------------------
+EntryTypes.java
+    Lines: 257
+FieldChange.java
+    Lines: 91
+TreeNode.java
+    Lines: 626
+ChainNode.java
+    Lines: 166
+Defaults.java
+    Lines: 17
+Folder: ./src/main/java/org/jabref/model
+--------------------------------------------------------
+AbstractBibtexKeyPattern.java
+    Lines: 149
+GlobalBibtexKeyPattern.java
+    Lines: 21
+DatabaseBibtexKeyPattern.java
+    Lines: 19
+Folder: ./src/main/java/org/jabref/model/bibtexkeypattern
+--------------------------------------------------------
+BibDatabaseModeDetection.java
+    Lines: 37
+BibDatabaseContext.java
+    Lines: 285
+BibDatabase.java
+    Lines: 619
+DuplicationChecker.java
+    Lines: 110
+KeyCollisionException.java
+    Lines: 20
+BibDatabases.java
+    Lines: 43
+BibDatabaseMode.java
+    Lines: 55
+KeyChangeListener.java
+    Lines: 87
+Folder: ./src/main/java/org/jabref/model/database
+--------------------------------------------------------
+DatabaseConnection.java
+    Lines: 10
+DatabaseLocation.java
+    Lines: 11
+DatabaseNotSupportedException.java
+    Lines: 11
+DatabaseSynchronizer.java
+    Lines: 22
+DBMSType.java
+    Lines: 61
+DatabaseConnectionProperties.java
+    Lines: 18
+Folder: ./src/main/java/org/jabref/model/database/shared
+--------------------------------------------------------
+ChangePropagation.java
+    Lines: 5
+EntryRemovedEvent.java
+    Lines: 29
+AutosaveEvent.java
+    Lines: 8
+CoarseChangeFilter.java
+    Lines: 53
+EntryAddedEvent.java
+    Lines: 27
+BibDatabaseContextChangedEvent.java
+    Lines: 12
+Folder: ./src/main/java/org/jabref/model/database/event
+--------------------------------------------------------
+StringUtil.java
+    Lines: 725
+LatexToUnicodeAdapter.java
+    Lines: 27
+UnicodeToReadableCharMap.java
+    Lines: 241
+Folder: ./src/main/java/org/jabref/model/strings
+--------------------------------------------------------
+OptionalUtil.java
+    Lines: 58
+FileHelper.java
+    Lines: 132
+FileUpdateMonitor.java
+    Lines: 21
+FileUpdateListener.java
+    Lines: 9
+DummyFileUpdateMonitor.java
+    Lines: 20
+TreeCollector.java
+    Lines: 104
+Folder: ./src/main/java/org/jabref/model/util
+--------------------------------------------------------
+FileFieldWriter.java
+    Lines: 66
+BiblatexEntryTypes.java
+    Lines: 937
+IdGenerator.java
+    Lines: 31
+CanonicalBibtexEntry.java
+    Lines: 60
+AuthorListParser.java
+    Lines: 422
+FieldProperty.java
+    Lines: 30
+EntryLinkList.java
+    Lines: 31
+BibtexEntryType.java
+    Lines: 59
+FileFieldParser.java
+    Lines: 76
+Author.java
+    Lines: 387
+EntryConverter.java
+    Lines: 44
+InternalBibtexFields.java
+    Lines: 486
+ParsedEntryLink.java
+    Lines: 59
+KeywordList.java
+    Lines: 193
+EntryType.java
+    Lines: 105
+BibtexString.java
+    Lines: 192
+BibEntry.java
+    Lines: 888
+BibtexSingleField.java
+    Lines: 135
+AuthorList.java
+    Lines: 666
+IEEETranEntryTypes.java
+    Lines: 124
+BibtexEntryTypes.java
+    Lines: 290
+Date.java
+    Lines: 157
+FieldName.java
+    Lines: 199
+Month.java
+    Lines: 178
+CustomEntryType.java
+    Lines: 132
+Keyword.java
+    Lines: 126
+SharedBibEntryData.java
+    Lines: 37
+LinkedFile.java
+    Lines: 175
+BiblatexEntryType.java
+    Lines: 59
+Folder: ./src/main/java/org/jabref/model/entry
+--------------------------------------------------------
+SpecialField.java
+    Lines: 111
+SpecialFieldValue.java
+    Lines: 78
+Folder: ./src/main/java/org/jabref/model/entry/specialfields
+--------------------------------------------------------
+MathSciNetId.java
+    Lines: 67
+Identifier.java
+    Lines: 13
+DOI.java
+    Lines: 184
+Eprint.java
+    Lines: 143
+ISSN.java
+    Lines: 52
+ArXivIdentifier.java
+    Lines: 65
+ISBN.java
+    Lines: 109
+Folder: ./src/main/java/org/jabref/model/entry/identifier
+--------------------------------------------------------
+EntryEvent.java
+    Lines: 41
+EntryEventSource.java
+    Lines: 11
+FieldAddedOrRemovedEvent.java
+    Lines: 10
+EntryChangedEvent.java
+    Lines: 26
+FieldChangedEvent.java
+    Lines: 92
+Folder: ./src/main/java/org/jabref/model/entry/event
+--------------------------------------------------------
+FileAnnotationType.java
+    Lines: 76
+FileAnnotation.java
+    Lines: 184
+Folder: ./src/main/java/org/jabref/model/pdf
+--------------------------------------------------------
+SearchGroup.java
+    Lines: 82
+AutomaticGroup.java
+    Lines: 33
+WordKeywordGroup.java
+    Lines: 148
+AutomaticKeywordGroup.java
+    Lines: 82
+GroupHierarchyType.java
+    Lines: 32
+GroupEntryChanger.java
+    Lines: 39
+KeywordGroup.java
+    Lines: 35
+TexGroup.java
+    Lines: 93
+GroupTreeNode.java
+    Lines: 326
+ExplicitGroup.java
+    Lines: 74
+AutomaticPersonsGroup.java
+    Lines: 57
+AllEntriesGroup.java
+    Lines: 42
+AbstractGroup.java
+    Lines: 174
+RegexKeywordGroup.java
+    Lines: 65
+Folder: ./src/main/java/org/jabref/model/groups
+--------------------------------------------------------
+GroupUpdatedEvent.java
+    Lines: 20
+Folder: ./src/main/java/org/jabref/model/groups/event
+--------------------------------------------------------
+SearchMatcher.java
+    Lines: 10
+GroupSearchQuery.java
+    Lines: 69
+Folder: ./src/main/java/org/jabref/model/search
+--------------------------------------------------------
+ContainBasedSearchRule.java
+    Lines: 61
+SearchRules.java
+    Lines: 43
+GrammarBasedSearchRule.java
+    Lines: 258
+SentenceAnalyzer.java
+    Lines: 57
+RegexBasedSearchRule.java
+    Lines: 65
+SearchRule.java
+    Lines: 10
+Folder: ./src/main/java/org/jabref/model/search/rules
+--------------------------------------------------------
+MatcherSets.java
+    Lines: 18
+OrMatcher.java
+    Lines: 15
+AndMatcher.java
+    Lines: 15
+NotMatcher.java
+    Lines: 27
+MatcherSet.java
+    Lines: 45
+Folder: ./src/main/java/org/jabref/model/search/matchers
+--------------------------------------------------------
+CleanupJob.java
+    Lines: 16
+FieldFormatterCleanups.java
+    Lines: 122
+Formatter.java
+    Lines: 77
+FieldFormatterCleanup.java
+    Lines: 124
+Folder: ./src/main/java/org/jabref/model/cleanup
+--------------------------------------------------------
+ContentSelectors.java
+    Lines: 83
+ContentSelector.java
+    Lines: 48
+MetaData.java
+    Lines: 324
+FileDirectoryPreferences.java
+    Lines: 50
+SaveOrderConfig.java
+    Lines: 185
+Folder: ./src/main/java/org/jabref/model/metadata
+--------------------------------------------------------
+MetaDataChangedEvent.java
+    Lines: 23
+Folder: ./src/main/java/org/jabref/model/metadata/event
+--------------------------------------------------------
+AuxParser.java
+    Lines: 13
+AuxParserResult.java
+    Lines: 86
+Folder: ./src/main/java/org/jabref/model/auxparser
+--------------------------------------------------------
+OracleStatement.java
+    Lines: 13
+OracleConnection.java
+    Lines: 367
+package-info.java
+    Lines: 4
+Folder: ./src/main/java/oracle/jdbc
+--------------------------------------------------------
+OracleDriver.java
+    Lines: 8
+Folder: ./src/main/java/oracle/jdbc/driver
+--------------------------------------------------------
+DatabaseChangeEvent.java
+    Lines: 8
+DatabaseChangeRegistration.java
+    Lines: 11
+DatabaseChangeListener.java
+    Lines: 9
+Folder: ./src/main/java/oracle/jdbc/dcn
+--------------------------------------------------------
+LastFocusedTabPreferencesTest.java
+    Lines: 45
+Folder: ./src/jmh/java/org/jabref/preferences
+--------------------------------------------------------
+Benchmarks.java
+    Lines: 136
+Folder: ./src/jmh/java/org/jabref/benchmarks
+--------------------------------------------------------
+
+Total file: 1451
