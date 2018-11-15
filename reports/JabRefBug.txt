@@ -1,0 +1,180 @@
+1.	Aug 19, 20 16
+Issue #1783: Fix NPE when closing the last tab
+	The (new?) focus feature lead to an NPE when closing the last tab since there was no table to focus...
+		 Change in CHANGELOG.md described - introduced in dev version
+		 Manually tested changed features in running JabRef
+
+PR #1783:
+	File name: src/main/java/net/sf/jabref/gui/SidePaneManager.java 196
+	Changes: 8
+	Number of files: 1
+	SidePaneManager.java: decide which SidePaneComponent to show.
+	Chagnes in current code 
+
+
+
+2. Jul 29, 2016
+Issue #1639  Jabref websearch: Google Scholar shows no results on second pop-up menu 
+Issue #1674  Google Scholar web search -- Cannot download entry 
+
+PR #1641:
+	src/main/java/net/sf/jabref/importer/fetcher/GoogleScholarFetcher.java
+
+	Change from relative link to full link /… to https://…..
+	downloadEntry()
+	URLDownload(link): create a new HTTP connection 
+	downloadToString() -> asString(Charset encoding) : return the downloaded string using encoder 
+	BIbtexParser : importing BibTeX-files 
+
+ 
+
+3. Jul 17, 2016
+Issue #1592: LibreOffice: wrong numbers in citation labels
+
+PR #1599: Fixed #1592
+	CHANGELOG.md
+	Changes: 1
+	src/main/java/net/sf/jabref/gui/openoffice/OOBibBase.java 1380
+	Changes: 2
+	Number of files: 2
+ 
+
+
+4. Nov 13, 2016
+PR #2266: When an ISBN is not available on ebook.de, the error message is more clear.
+	File name: CHANGELOG.md
+	Changes: 1
+	File name: src/main/java/net/sf/jabref/logic/importer/IdBasedParserFetcher.java - 90 
+	Changes: 4
+	File name: src/test/java/net/sf/jabref/logic/importer/fetcher/AstrophysicsDataSystemTest.java - 206
+	Changes: 8
+	File name: src/test/java/net/sf/jabref/logic/importer/fetcher/IsbnFetcherTest.java - 55
+	Changes: 11
+	Number of files: 4
+
+#2266: When an ISBN is not available on ebook.de, the error message is more clear.
+Body: 
+When fetching a valid ISBN from ebook.de, but the site has no data of the ISBN, the error message just showed "FileNotFoundException". This PR fixes that.
+
+The issue itself is a kind of regression as it has been fixed for verison 3.3 - see #684
+
+
+ 
+5. May 6, 2018
+Issue #4014: Fetcher 'Title' removes all spaces 
+	Body: 
+	JabRef 4.2
+	Linux 4.16.6-1-arch amd64 
+	Java 1.8.0_172
+	Steps to reproduce:
+	1. New Entry
+	Ctrl-N, 
+	ID Type Title
+	ID Ultraluminous starbursts from supermassive black hole-induced outflows
+	2.  We get
+	Fetcher 'Title' did not find an entry for id 'Ultraluminousstarburstsfromsupermassiveblackhole-inducedoutflows'.
+	3. Works perfectly in the old version (JabRef 4.1).
+
+
+PR #4016: Do not trim or remove whitespace from the title based id fetcher PR
+Body: 
+Fixes #4014
+<!-- describe the changes you have made here: what, why, ... 
+     Link issues by using the following pattern: [#333](https://github.com/JabRef/jabref/issues/333) or [koppor#49](https://github.com/koppor/jabref/issues/47).
+     The title of the PR must not reference an issue, because GitHub does not support autolinking there. → ----
+- [ ] Change in CHANGELOG.md described
+- [ ] Tests created for changes
+- [ ] Manually tested changed features in running JabRef
+- [ ] Screenshots added in PR description (for bigger UI changes)
+- [ ] Ensured that [the git commit message is a good one](https://github.com/joelparkerhenderson/git_commit_message)
+- [ ] Check documentation status (Issue created for outdated help page at [help.jabref.org](https://github.com/JabRef/help.jabref.org/issues)?)
+	File name: CHANGELOG.md
+	Changes: 7
+	File name: src/main/java/org/jabref/gui/EntryTypeDialog.java - 366
+	Changes: 13
+	File name: src/main/java/org/jabref/logic/importer/fetcher/ArXiv.java - 423
+	Changes: 6
+	File name: src/main/java/org/jabref/logic/importer/fetcher/DoiFetcher.java - 83
+	Changes: 1
+	File name: src/main/java/org/jabref/logic/importer/fetcher/IacrEprintFetcher.java - 204
+	Changes: 6
+	File name: src/main/java/org/jabref/model/entry/identifier/DOI.java - 184
+	Changes: 4
+	File name: src/test/java/org/jabref/logic/importer/fetcher/ArXivTest.java - 198
+	Changes: 6
+	File name: src/test/java/org/jabref/logic/importer/fetcher/DoiFetcherTest.java - 90
+	Changes: 7
+	File name: src/test/java/org/jabref/model/entry/identifier/DOITest.java - 154
+	Changes: 8
+	Number of files: 9
+
+ 
+
+6. Aug 21, 2016
+Issue #1804: Url field vanishes after running "Check integrity"
+
+PR #1823 - URL field is not removed by integrity check 
+	Files:  
+	File name: CHANGELOG.md
+	Changes: 2
+	File name: src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java
+	Changes: 22
+	File name: src/main/java/net/sf/jabref/model/entry/FieldProperties.java
+	Changes: 3
+	File name: src/main/java/net/sf/jabref/model/entry/InternalBibtexFields.java
+	Changes: 7
+	Number of files: 4
+
+ 
+
+7. Aug 29, 2016
+Issues #1881: New database is marked as changed 
+
+PR #1888 - Do not mark a new database as changed
+	File name: src/main/java/net/sf/jabref/gui/BasePanel.java
+	Changes: 22
+	Number of files: 1
+
+ 
+
+8. Apr 1, 2017 
+Issues #2701: "Get fulltext" finds too many files when using regexp **/[year]_[auth].*\\.[extension]
+
+PR #2732 - Fix 2701 too may files found 
+	File name: src/main/java/org/jabref/logic/bibtexkeypattern/BibtexKeyPatternUtil.java
+	Changes: 15
+	File name: src/test/java/org/jabref/logic/bibtexkeypattern/MakeLabelWithoutDatabaseTest.java
+	Changes: 41
+	Number of files: 2
+
+ 
+
+9. Jun 14, 2016 
+Issue #1499: { } braces in author/editor names are not treated correctly
+	  #1531: Support \relax for author first name abbreviations 
+
+PR #1755 - Fixed name column rendering #1499 and #1531 
+	File name: CHANGELOG.md
+	Changes: 3
+	File name: src/main/java/net/sf/jabref/gui/maintable/MainTableColumn.java
+	Changes: 11
+	File name: src/test/java/net/sf/jabref/model/entry/AuthorListTest.java
+	Changes: 22
+	Number of files: 3
+
+
+
+10. Mar 25, 2017
+Issues #2676: Filename field in file annotations tab is too small when filename exceeds length of field
+
+PR #2684 - FileAnnotationTab now only shows the FileName, not the full path. 
+	File name: src/main/java/org/jabref/logic/pdf/EntryAnnotationImporter.java
+	Changes: 2
+	Number of files: 1
+
+
+Guide to build JabRef using Gradle in Java: 
+https://github.com/JabRef/jabref/wiki/Guidelines-for-setting-up-a-local-workspace
+Use the latest version of “build.gradle” 
+Change gradle version to “4-10-2” in gradle/wrapper/gradle-wrapper.properties.
+
