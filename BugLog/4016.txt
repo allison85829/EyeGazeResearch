@@ -1,0 +1,121 @@
+May 6, 2018
+Issue #4014: Fetcher 'Title' removes all spaces
+	Body:
+	JabRef 4.2
+	Linux 4.16.6-1-arch amd64
+	Java 1.8.0_172
+	Steps to reproduce:
+	1. New Entry
+	Ctrl-N,
+	ID Type Title
+	ID Ultraluminous starbursts from supermassive black hole-induced outflows
+	2.  We get
+	Fetcher 'Title' did not find an entry for id 'Ultraluminousstarburstsfromsupermassiveblackhole-inducedoutflows'.
+	3. Works perfectly in the old version (JabRef 4.1).
+
+
+PR #4016: Do not trim or remove whitespace from the title based id fetcher PR
+Body:
+Fixes #4014
+<!-- describe the changes you have made here: what, why, ...
+     Link issues by using the following pattern: [#333](https://github.com/JabRef/jabref/issues/333) or [koppor#49](https://github.com/koppor/jabref/issues/47).
+     The title of the PR must not reference an issue, because GitHub does not support autolinking there.
+	File name: CHANGELOG.md
+	Changes: 7
+	File name: src/main/java/org/jabref/gui/EntryTypeDialog.java - 366
+	Changes: 13
+	File name: src/main/java/org/jabref/logic/importer/fetcher/ArXiv.java - 423
+	Changes: 6
+	File name: src/main/java/org/jabref/logic/importer/fetcher/DoiFetcher.java - 83
+	Changes: 1
+	File name: src/main/java/org/jabref/logic/importer/fetcher/IacrEprintFetcher.java - 204
+	Changes: 6
+	File name: src/main/java/org/jabref/model/entry/identifier/DOI.java - 184
+	Changes: 4
+	File name: src/test/java/org/jabref/logic/importer/fetcher/ArXivTest.java - 198
+	Changes: 6
+	File name: src/test/java/org/jabref/logic/importer/fetcher/DoiFetcherTest.java - 90
+	Changes: 7
+	File name: src/test/java/org/jabref/model/entry/identifier/DOITest.java - 154
+	Changes: 8
+	Number of files: 9
+
+1. src/main/java/org/jabref/gui/EntryTypeDialog.java
+   @Override
+   protected Optional<BibEntry> doInBackground() throws Exception {
+      Optional<BibEntry> bibEntry = Optional.empty();
+      SwingUtilities.invokeLater(() -> {
+          generateButton.setEnabled(false);
+          generateButton.setText(Localization.lang("Searching..."));
+      });
+
+      // --------------- ERROR ---------------
+      Globals.prefs.put(JabRefPreferences.ID_ENTRY_GENERATOR, String.valueOf(comboBox.getSelectedItem()));
+      searchID = idTextField.getText().trim();
+      searchID = searchID.replaceAll(" ", "");
+      // --------------- ERROR ---------------
+
+      // --------------- FIX ----------------
+      Globals.prefs.put(JabRefPreferences.ID_ENTRY_GENERATOR, String.valueOf(comboBox.getSelectedItem()));
+      // --------------- FIX ----------------
+
+      fetcher = WebFetchers.getIdBasedFetchers(Globals.prefs.getImportFormatPreferences()).get(comboBox.getSelectedIndex());
+
+      // --------------- FIX ----------------
+      searchID = idTextField.getText();
+      // --------------- FIX ----------------
+
+      if (!searchID.isEmpty()) {
+          try {
+              bibEntry = fetcher.performSearchById(searchID);
+          } catch (FetcherException e) {
+              LOGGER.error(e.getMessage(), e);
+              fetcherException = true;
+              fetcherExceptionMessage = e.getMessage();
+          }
+      }
+      return bibEntry;
+   }
+
+2. src/main/java/org/jabref/logic/importer/fetcher/ArXiv.java
+@Override
+public Optional<BibEntry> performSearchById(String identifier) throws FetcherException {
+  // --------------- ERROR ---------------
+  return searchForEntryById(identifier).map((arXivEntry) -> arXivEntry.toBibEntry(importFormatPreferences.getKeywordSeparator()));
+  // --------------- ERROR ---------------
+
+  // --------------- FIX ----------------
+  String cleanedIdentifier = identifier.trim();
+  cleanedIdentifier = identifier.replaceAll(" ", "");
+  return searchForEntryById(cleanedIdentifier).map((arXivEntry) -> arXivEntry.toBibEntry(importFormatPreferences.getKeywordSeparator()));
+  // --------------- FIX ----------------
+}
+
+3. src/main/java/org/jabref/logic/importer/fetcher/IacrEprintFetcher.java
+// remove
+(line 40) private static final DateTimeFormatter DATE_FORMAT_WEBSITE_AFTER_2000 = DateTimeFormatter.ofPattern("d MMM yyyy", Locale.US);
+// replace with
+private static final Pattern WITHOUT_LETTERS_SPACE = Pattern.compile("[^0-9/]");
+private static final DateTimeFormatter DATE_FORMAT_WEBSITE_AFTER_2000 = DateTimeFormatter.ofPattern("d MMM yyyy", Locale.US);
+
+// remove
+(line 58) String identifierWithoutLettersAndSpaces = identifier.replaceAll("[^0-9/]", " ").trim();
+// replace with
+String identifierWithoutLettersAndSpaces = WITHOUT_LETTERS_SPACE.matcher(identifier).replaceAll(" ").trim();
+
+4. src/main/java/org/jabref/model/entry/identifier/DOI.java
+public static Optional<DOI> parse(String doi) {
+   try {
+        // --------------- FIX ----------------
+        String cleanedDOI = doi.trim();
+        cleanedDOI = doi.replaceAll(" ", "");
+        return Optional.of(new DOI(cleanedDOI));
+        // --------------- FIX ----------------
+
+        // --------------- ERROR ---------------
+        return Optional.of(new DOI(doi));
+        // --------------- ERROR ---------------
+   } catch (IllegalArgumentException | NullPointerException e) {
+        return Optional.empty();
+   }
+}
