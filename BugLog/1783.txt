@@ -1,1 +1,38 @@
-//
+Aug 19, 20 16 ---------------------------------------
+Issue #1783: Fix NPE when closing the last tab
+	The (new?) focus feature lead to an NPE when closing the last tab since there was no table to focus...
+		 Change in CHANGELOG.md described - introduced in dev version
+		 Manually tested changed features in running JabRef
+
+PR #1783:
+	File name: src/main/java/net/sf/jabref/gui/SidePaneManager.java 196
+	Changes: 8
+	Number of files: 1
+	SidePaneManager.java: decide which SidePaneComponent to show.
+	Chagnes in current code
+
+public synchronized void hide(String name) {
+        SidePaneComponent sidePaneComponent = components.get(name);
+
+        // -------- error ----------
+        MainTable mainTable = frame.getCurrentBasePanel().getMainTable();
+		  // -------- error ----------
+
+        if (sidePaneComponent == null) {
+            LOGGER.warn("Side pane component '" + name + "' unknown.");
+        } else {
+		  		// ---------- FIX ---------------
+            hideComponent(sidePaneComponent);
+            if (frame.getCurrentBasePanel() != null) {
+                MainTable mainTable = frame.getCurrentBasePanel().getMainTable();
+                mainTable.setSelected(mainTable.getSelectedRow());
+                mainTable.requestFocus();
+            }
+				// ---------- FIX ---------------
+
+				// -------- error ----------
+            mainTable.setSelected(mainTable.getSelectedRow());
+            mainTable.requestFocus();
+				// -------- error ----------
+        }
+    }
