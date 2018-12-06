@@ -1,0 +1,65 @@
+Aug 29, 2016 -------------------------------------------
+Issues #1881: New database is marked as changed
+
+PR #1888 - Do not mark a new database as changed
+  File name: src/main/java/net/sf/jabref/gui/BasePanel.java
+  Changes: 22
+  Number of files: 1
+
+- src/main/java/net/sf/jabref/gui/BasePanel.java
+public BasePanel(JabRefFrame frame, BibDatabaseContext bibDatabaseContext) {
+    Objects.requireNonNull(frame);
+    Objects.requireNonNull(bibDatabaseContext);
+
+    this.bibDatabaseContext = bibDatabaseContext;
+
+    this.sidePaneManager = frame.getSidePaneManager();
+    this.frame = frame;
+    this.tableModel = new MainTableDataModel(getBibDatabaseContext());
+
+    searchBar = new SearchBar(this);
+
+    setupMainPanel();
+
+    setupActions();
+
+    Optional<File> file = bibDatabaseContext.getDatabaseFile();
+
+    // ensure that at each addition of a new entry, the entry is added to the groups interface
+    this.bibDatabaseContext.getDatabase().registerListener(new GroupTreeListener());
+
+    if (file.isPresent()) {
+        // --------------- ERROR ---------------
+        if (bibDatabaseContext.getDatabase().hasEntries()) {
+            // Register so we get notifications about outside changes to the file.
+            try {
+                fileMonitorHandle = Globals.getFileUpdateMonitor().addUpdateListener(this, file.get());
+            } catch (IOException ex) {
+                LOGGER.warn("Could not register FileUpdateMonitor", ex);
+            }
+        }
+        // --------------- ERROR ---------------
+
+       // --------------- FIX ----------------
+       // Register so we get notifications about outside changes to the file.
+       try {
+           fileMonitorHandle = Globals.getFileUpdateMonitor().addUpdateListener(this, file.get());
+       } catch (IOException ex) {
+           LOGGER.warn("Could not register FileUpdateMonitor", ex);
+       }
+       // --------------- FIX ----------------
+    } else {
+        // --------------- ERROR ---------------
+        this.baseChanged = true;
+        // --------------- ERROR ---------------
+
+        // --------------- FIX ----------------
+        if (bibDatabaseContext.getDatabase().hasEntries()) {
+               // if the database is not empty and no file is assigned,
+               // the database came from an import and has to be treated somehow
+               // -> mark as changed
+               this.baseChanged = true;
+         }
+         // --------------- FIX ----------------
+    }
+}
