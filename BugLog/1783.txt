@@ -16,23 +16,23 @@ public synchronized void hide(String name) {
 
         // -------- error ----------
         MainTable mainTable = frame.getCurrentBasePanel().getMainTable();
-		  // -------- error ----------
+	// -------- error ----------
 
         if (sidePaneComponent == null) {
             LOGGER.warn("Side pane component '" + name + "' unknown.");
         } else {
-		  		// ---------- FIX ---------------
+	    // ---------- FIX ---------------
             hideComponent(sidePaneComponent);
             if (frame.getCurrentBasePanel() != null) {
                 MainTable mainTable = frame.getCurrentBasePanel().getMainTable();
                 mainTable.setSelected(mainTable.getSelectedRow());
                 mainTable.requestFocus();
             }
-				// ---------- FIX ---------------
+	    // ---------- FIX ---------------
 
-				// -------- error ----------
+	    // -------- error ----------
             mainTable.setSelected(mainTable.getSelectedRow());
             mainTable.requestFocus();
-				// -------- error ----------
+	    // -------- error ----------
         }
     }
