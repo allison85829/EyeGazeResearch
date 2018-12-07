@@ -1,0 +1,81 @@
+Aug 21, 2016 -------------------------------------
+Issue #1804: Url field vanishes after running "Check integrity"
+
+PR #1823 - URL field is not removed by integrity check
+	Files:
+	File name: CHANGELOG.md
+	Changes: 2
+	File name: src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java
+	Changes: 22
+	File name: src/main/java/net/sf/jabref/model/entry/FieldProperties.java
+	Changes: 3
+	File name: src/main/java/net/sf/jabref/model/entry/InternalBibtexFields.java
+	Changes: 7
+	Number of files: 4
+
+Steps to recreate bug:
+- Create an entry with URL link
+- Option -> Check integrity -> URL vanishes
+
+Link to PR log: https://github.com/JabRef/jabref/pull/1823/files
+
+
+1. src/main/java/net/sf/jabref/logic/integrity/IntegrityCheck.java
+@Override
+  public List<IntegrityMessage> check(BibEntry entry) {
+      List<IntegrityMessage> results = new ArrayList<>();
+
+      Map<String, String> fields = entry.getFieldMap();
+       // --------------- ERROR ---------------
+      fields.remove(FieldName.URL);
+		 // --------------- ERROR ---------------
+
+      for (Map.Entry<String, String> field : fields.entrySet()) {
+			 // --------------- FIX ----------------
+			if (!InternalBibtexFields.getFieldExtras(field.getKey()).contains(FieldProperties.VERBATIM)) {
+				 Matcher hashMatcher = UNESCAPED_HASH.matcher(field.getValue());
+				 int hashCount = 0;
+				 while (hashMatcher.find()) {
+					  hashCount++;
+				 }
+				 if ((hashCount & 1) == 1) { // Check if odd
+					  results.add(new IntegrityMessage(Localization.lang("odd number of unescaped '#'"), entry,
+								 field.getKey()));
+				 }
+
+			}
+			// --------------- FIX ----------------
+
+			// --------------- ERROR ---------------
+			Matcher hashMatcher = UNESCAPED_HASH.matcher(field.getValue());
+			  int hashCount = 0;
+			  while (hashMatcher.find()) {
+			      hashCount++;
+			  }
+			  if ((hashCount & 1) == 1) { // Check if odd                     }
+			      results.add(new IntegrityMessage(Localization.lang("odd number of unescaped '#'"), entry,field.getKey()));
+
+			}
+			// --------------- ERROR ---------------
+      }
+      return results;
+  }
+}
+
+2. src/main/java/net/sf/jabref/model/entry/FieldProperties.java
+PUBLICATION_STATE,
+// adding on line (34)
+VERBATIM;
+
+3. src/main/java/net/sf/jabref/model/entry/InternalBibtexFields.java
+// ERROR remove on line 159
+dummy.setExtras(EnumSet.of(FieldProperties.EXTERNAL));
+// replace with
+dummy.setExtras(EnumSet.of(FieldProperties.EXTERNAL, FieldProperties.VERBATIM));
+add(dummy);
+
+// ERROR remove on line 168
+dummy.setExtras(EnumSet.of(FieldProperties.FILE_EDITOR));
+// replace with
+dummy.setExtras(EnumSet.of(FieldProperties.FILE_EDITOR, FieldProperties.VERBATIM));
+add(dummy);
