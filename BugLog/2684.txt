@@ -1,0 +1,37 @@
+ Mar 25, 2017 
+----- 2684 -----
+Issues #2676: Filename field in file annotations tab is too small when filename exceeds length of field
+
+PR #2684 - FileAnnotationTab now only shows the FileName, not the full path.
+	File name: src/main/java/org/jabref/logic/pdf/EntryAnnotationImporter.java
+	Changes: 2
+	Number of files: 1
+
+- Bug 2701 occur here, we could introduce this bug to the fixed version of bug 2701
+- Testing entry: create file with long path
+@Article{Feringa1983,
+author       = {Feringa, Ben L. and Dannenberg, W.},
+title        = {γ-Keto Esters and γ-Butyrolactones From the Reaction of Dialkoxydihydrofurans With Trimethylsilyl Iodide},
+journal      = {Synthetic Communications},
+year         = {1983},
+volume       = {13},
+number       = {6},
+pages        = {509--514},
+issn         = {0039-7911, 1532-2432},
+date         = {1983-04},
+doi          = {10.1080/00397918308081830},
+file         = {1983_Feringa_509.pdf:pdf/1983_Feringa_509.pdf:PDF},
+journaltitle = {Synthetic Communications},
+langid       = {english},
+owner        = {saulius},
+timestamp    = {2017-03-14},
+url          = {http://www.tandfonline.com/doi/abs/10.1080/00397918308081830},
+urldate      = {2017-03-14},
+}
+
+
+// in public Map<String, List<FileAnnotation>> importAnnotationsFromFiles(BibDatabaseContext databaseContext)
+// remove 
+expandedFileName.ifPresent(file -> annotations.put(file.toString(), importer.importAnnotations(file.toPath())));
+// replace with 
+expandedFileName.ifPresent(file -> annotations.put(file.getName(), importer.importAnnotations(file.toPath())));
