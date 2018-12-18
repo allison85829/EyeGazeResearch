@@ -1,0 +1,53 @@
+Jun 14, 2016 
+----- 1755 -----
+Issue #1499: { } braces in author/editor names are not treated correctly
+	  #1531: Support \relax for author first name abbreviations
+    JabRef version 3.4 Windows 10
+    Missing author name, truncate some of the name
+    Three authors seperated by "," -> middle author is truncated
+
+PR #1755 - Fixed name column rendering #1499 and #1531
+	File name: CHANGELOG.md
+	Changes: 3
+	File name: src/main/java/net/sf/jabref/gui/maintable/MainTableColumn.java
+	Changes: 11
+	File name: src/test/java/net/sf/jabref/model/entry/AuthorListTest.java
+	Changes: 22
+	Number of files: 3
+
+src/main/java/net/sf/jabref/gui/maintable/
+	
+	// change from public to private method 
+	private boolean isNameColumn() {
+	    //    private boolean isNameColumn() {
+	    for (String field : bibtexFields) {
+	        if (InternalBibtexFields.getFieldExtras(field).contains(FieldProperties.PERSON_NAMES)) {
+	            return true;
+	        }
+	    }
+	    return false;
+	}
+
+
+	// in  public Object getColumnValue(BibEntry entry) 
+    // remove 
+    if (content != null) {
+        content = toUnicode.format(content);
+    }
+    // replace with 
+    if (isNameColumn()) {
+        content = MainTableNameFormatter.formatName(content);
+    }
+
+    // remove 
+    // ERROR
+    if (isNameColumn()) {
+        return MainTableNameFormatter.formatName(content);
+    }
+    // replace with 
+	if (content != null) {
+	    content = toUnicode.format(content).trim();
+	}
+
+
+
