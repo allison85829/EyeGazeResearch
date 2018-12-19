@@ -1,0 +1,50 @@
+Apr 1, 2017 -------------------------------------
+Issues #2701: "Get fulltext" finds too many files when using regexp **/[year]_[auth].*\\.[extension]
+
+PR #2732 - Fix 2701 too may files found
+	File name: src/main/java/org/jabref/logic/bibtexkeypattern/BibtexKeyPatternUtil.java
+	Changes: 15
+	File name: src/test/java/org/jabref/logic/bibtexkeypattern/MakeLabelWithoutDatabaseTest.java
+	Changes: 41
+	Number of files: 2
+
+Recreate bug:
+- Options -> Preference -> File
+- Use regular expression: **/[year]_[auth].*\\.[extension]
+- Select an entry to edit
+Go to "General" --> Remove file in "File" --> Click "Get fulltext"
+--> get all the files that are in the specified directory in Preference setting
+- it supposed to get files that match the regular expression
+
+src/main/java/org/jabref/logic/bibtexkeypattern/BibtexKeyPatternUtil.java
+
+// in  public static String makeLabel(BibEntry entry, String value, Character keywordDelimiter, BibDatabase database)
+
+// remove ERROR at line 528
+String authString = entry.getField(FieldName.AUTHOR)
+							 .map(authorString -> normalize(database.resolveForStrings(authorString))).orElse("");
+
+// replace with
+String authString;
+if (database != null) {
+	 authString = entry.getField(FieldName.AUTHOR)
+				.map(authorString -> normalize(database.resolveForStrings(authorString))).orElse("");
+} else {
+	 authString = entry.getField(FieldName.AUTHOR).orElse("");
+}
+
+
+// at line 538
+if (authString.isEmpty()) {
+	 // remove ERROR
+	 authString = entry.getField(FieldName.EDITOR)
+				.map(authorString -> normalize(database.resolveForStrings(authorString))).orElse("");
+
+	 // replace with
+	 if (database != null) {
+		  authString = entry.getField(FieldName.EDITOR)
+					 .map(authorString -> normalize(database.resolveForStrings(authorString))).orElse("");
+	 } else {
+		  authString = entry.getField(FieldName.EDITOR).orElse("");
+	 }
+}
