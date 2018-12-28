@@ -1,0 +1,35 @@
+Jul 11, 2016
+#1562: Fixed number of entries fetched from Springer
+Earlier one less entry than requested was fetched when searching Springer. Added ChangeLog entry in case someone else detects this...
+eg: request to fetch 3 entries will only result in 2 entry being fetched.
+
+File name: CHANGELOG.md
+Changes: 1
+File name: src/main/java/net/sf/jabref/importer/fetcher/SpringerFetcher.java
+Changes: 2
+File name: src/main/java/net/sf/jabref/importer/fileformat/JSONEntryParser.java
+Changes: 9
+Number of files: 3
+
+1. src/main/java/net/sf/jabref/importer/fetcher/SpringerFetcher.java
+line 96
+	// remove error 
+	int noToFetch = Math.min(MAX_PER_PAGE, (numberToFetch - startItem));
+	// replace with 
+   	int noToFetch = Math.min(MAX_PER_PAGE, (numberToFetch - startItem) + 1);
+                
+2. src/main/java/net/sf/jabref/importer/fileformat/JSONEntryParser.java
+// inside public static BibEntry parseSpringerJSONtoBibtex(JSONObject springerJsonEntry) 
+// line 236
+	
+	// remove error 
+    String abstr = entry.getField("abstract");
+    if ((abstr != null) && abstr.startsWith("Abstract")) {
+        entry.setField("abstract", abstr.substring(8));
+    }
+	// replace with 
+ 	entry.getFieldOptional("abstract").ifPresent(abstr -> {
+        if (abstr.startsWith("Abstract")) {
+            entry.setField("abstract", abstr.substring(8));
+        }
+    });
